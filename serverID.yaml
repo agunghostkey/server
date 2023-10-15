@@ -1,0 +1,142 @@
+proxies:
+
+- name: Howdy-19okt
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: 00f41330-6858-11ee-9fa1-1239d0255272
+  udp: false
+  sni: id-1.test3.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-1.test3.net
+
+- name: Artha-ID 18
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: e680bd20-6858-11ee-8451-1239d0255272
+  udp: true
+  sni: sg-2.test3.net
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: sg-2.test3.net
+
+- name: nusanet
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: 22d07eb2-a7de-422a-85a8-b15c6f26a8ce
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id1-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: "/JAGOANSSH/"
+    headers:
+      Host: id1-ray.ipservers.xyz
+
+- name: NusaNet1-18
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: 9b9e68fb-e448-4d6f-be46-eee46f8bd31c
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: id2-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: "/JAGOANSSH/"
+    headers:
+      Host: id2-ray.ipservers.xyz
+
+- name: Biznet-19
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 5e8edc93-b159-4222-9269-9f9f5bb882a8
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
+  udp: true
+
+- name: Main-nusanet-19
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-Jahaqdg
+  skip-cert-verify: true
+  sni: idtws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: idtws.mainssh.xyz
+  udp: true
+
+- name: idray2 21
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 8fec678b-52ea-45a2-b227-d462d38da290
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
+  udp: true
+
+- name: idray 21
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: df3dc61f-b749-4d09-94bc-e7b7e0525e62
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
+  udp: true
+
+- name: id main 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-nusstrojj
+  skip-cert-verify: true
+  sni: idtws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: idtws.mainssh.xyz
+  udp: true
