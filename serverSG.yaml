@@ -1,0 +1,205 @@
+proxies: 
+- name: Premium
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: linodcsvpnn_hidessh
+  skip-cert-verify: true
+  sni: sgo-viprext.my.id
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: sgo-viprext.my.id
+  udp: true
+
+- name: SGM 11 Nov
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: f222379a-3b26-4061-bc74-f504f899c32a
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sgm1ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: "/serverssh.net"
+    headers:
+      Host: sgm1ray.serverip.my.id
+
+- name: SG-HE18OKT
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: 48f1de90-6859-11ee-bace-1239d0255272
+  udp: true
+  sni: sg6-trojan.bonds.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: sg6-trojan.bonds.id
+
+- name: SG-10-19
+  type: vmess
+  server: 104.26.6.171
+  port: 443
+  uuid: 95655a90-685a-11ee-969f-1239d0255272
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg3.socifiles.com
+  network: ws
+  ws-opts:
+    path: "/vmws"
+    headers:
+      Host: sg3.socifiles.com
+
+- name: SG-Datacamp-19
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 68b2d911-2272-4be4-a03a-5300cc250ea4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sg2ray.serverip.my.id
+  udp: true
+
+- name: SG1 HOW 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: f40bc430-6a43-11ee-ac0b-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+
+- name: SG3 HOW 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: e35526c0-6a43-11ee-b50e-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+
+- name: main sg2 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-nuqsstrojjx
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg2tws.mainssh.xyz
+  udp: true
+
+- name: SG2 How 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: da638720-6a43-11ee-8403-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg2-trojan.bonds.id
+  udp: true
+
+- name: Sg-Howdy 21 tesss
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: fe34f970-6a43-11ee-9af8-1239d0255272
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
+  udp: true
+
+- name: SG TROJ 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: c46fe830-6a43-11ee-bf23-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
+
+- name: sg4 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: d03f95e0-6a43-11ee-ab46-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+
+- name: main SG 21
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-nusstrojjb
+  skip-cert-verify: true
+  sni: sg3tws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg3tws.mainssh.xyz
+  udp: true
+
+- name: xray-18okt
+  type: trojan
+  server: 104.26.6.171
+  port: 443
+  password: d556f58a-7a28-4edb-8e9d-65b669190cd4
+  udp: true
+  sni: xray.josvpn.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: xray.josvpn.me
