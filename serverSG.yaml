@@ -190,7 +190,7 @@ proxies:
       Host: sg3tws.mainssh.xyz
   udp: true
 
-- name: xray-18okt
+- name: xray-18okt UPDATE
   type: trojan
   server: 104.26.6.171
   port: 443
