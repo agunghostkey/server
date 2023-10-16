@@ -1,0 +1,1 @@
+trojan://mainssh-AUTO@104.26.6.171:443?path=%2Ftrojan&security=tls&host=idtws.mainssh.xyz&type=ws&sni=idtws.mainssh.xyz#Main-SG19
