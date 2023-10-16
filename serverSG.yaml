@@ -203,3 +203,34 @@ proxies:
     path: "/trojan"
     headers:
       Host: xray.josvpn.me
+
+- name: Sg-24
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: 4d8d8f57-04bd-4665-8ef0-0bfa96402ccc
+  skip-cert-verify: true
+  sni: v2ray.josvpn.me
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: v2ray.josvpn.me
+  udp: true
+
+- name: SG-24
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 30fd64dd-c150-4571-a374-4b2ea16f5e0b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray.josvpn.me
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: v2ray.josvpn.me
+  udp: true
