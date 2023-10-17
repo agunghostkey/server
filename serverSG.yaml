@@ -234,3 +234,39 @@ proxies:
     headers:
       Host: v2ray.josvpn.me
   udp: true
+
+  
+- name: SGM 17 NOV
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 03357bc1-8a67-4ded-b407-16f5e6eafcd2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgm1ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sgm1ray.serverip.my.id
+  udp: true
+
+- name: SGM 17 NOV
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 03357bc1-8a67-4ded-b407-16f5e6eafcd2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgm1ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sgm1ray.serverip.my.id
+  udp: true
+
