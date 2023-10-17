@@ -143,7 +143,7 @@ proxies:
 
   - name: ID MAIN25
   server: 104.26.6.171
-  type: vless
+  type: vmess
   port: 443
   uuid: 517498fb-d8b9-4bfd-94c4-d1d643f64e1e
   tls: true
@@ -158,7 +158,7 @@ proxies:
 
 - name: ID main25
   server: 104.26.6.171
-  type: vless
+  type: vmess
   port: 443
   uuid: 5c230be4-5ca4-407f-9575-269d947a249a
   tls: true
