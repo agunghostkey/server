@@ -1,5 +1,22 @@
 proxies:
 
+- name: ID MAIN 25
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 0204e902-18b3-4655-93d0-126a35fe4281
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idmws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idmws.mainssh.xyz
+  udp: true
+
 - name: Howdy-19okt
   type: trojan
   server: 104.26.6.171
@@ -140,3 +157,4 @@ proxies:
     headers:
       Host: idtws.mainssh.xyz
   udp: true
+  
