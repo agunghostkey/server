@@ -270,3 +270,44 @@ proxies:
       Host: sgm1ray.serverip.my.id
   udp: true
 
+- name: Limited HWD 25
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: a17b12a0-6d0e-11ee-a199-1239d0255272
+  skip-cert-verify: true
+  sni: sg-5.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-5.test3.net
+  udp: true
+
+- name: Howdy 25
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: fbad2d40-6d0e-11ee-8c60-1239d0255272
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
+  udp: true
+
+- name: sg main 25
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-Uahagga
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sgtws.mainssh.xyz
+  udp: true
