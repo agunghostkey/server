@@ -126,7 +126,7 @@ proxies:
     headers:
       Host: idray.serverip.my.id
   udp: true
-
+  
 - name: id main 21
   server: 104.26.6.171
   port: 443
@@ -139,34 +139,4 @@ proxies:
     path: /trojan
     headers:
       Host: idtws.mainssh.xyz
-  udp: true
-
-  - name: ID MAIN25
-  server: 104.26.6.171
-  type: vmess
-  port: 443
-  uuid: 517498fb-d8b9-4bfd-94c4-d1d643f64e1e
-  tls: true
-  skip-cert-verify: true
-  servername: idlws.mainssh.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: idlws.mainssh.xyz
-  udp: true
-
-- name: ID main25
-  server: 104.26.6.171
-  type: vmess
-  port: 443
-  uuid: 5c230be4-5ca4-407f-9575-269d947a249a
-  tls: true
-  skip-cert-verify: true
-  servername: idlws.mainssh.xyz
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: idlws.mainssh.xyz
   udp: true
