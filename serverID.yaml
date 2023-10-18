@@ -31,54 +31,6 @@ proxies:
     headers:
       Host: id-1.test3.net
 
-- name: Artha-ID 18
-  type: trojan
-  server: 104.26.6.171
-  port: 443
-  password: e680bd20-6858-11ee-8451-1239d0255272
-  udp: true
-  sni: sg-2.test3.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/howdy"
-    headers:
-      Host: sg-2.test3.net
-
-- name: nusanet
-  type: vmess
-  server: 104.26.6.171
-  port: 443
-  uuid: 22d07eb2-a7de-422a-85a8-b15c6f26a8ce
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id1-ray.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: "/JAGOANSSH/"
-    headers:
-      Host: id1-ray.ipservers.xyz
-
-- name: NusaNet1-18
-  type: vmess
-  server: 104.26.6.171
-  port: 443
-  uuid: 9b9e68fb-e448-4d6f-be46-eee46f8bd31c
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id2-ray.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: "/JAGOANSSH/"
-    headers:
-      Host: id2-ray.ipservers.xyz
-
 - name: Biznet-19
   server: 104.26.6.171
   type: vmess
