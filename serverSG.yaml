@@ -1,3 +1,118 @@
+
+- name: SG9-26
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 0e5fb38e-5939-420f-9a65-ef57742268aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg1ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sg1ray.serverip.my.id
+  udp: true
+
+- name: SG8-26
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: d3e95828-9d78-447a-8d84-3c440407b237
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sg2ray.serverip.my.id
+  udp: true
+
+- name: SG5-26
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-hoppssa
+  skip-cert-verify: true
+  sni: sg3tws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg3tws.mainssh.xyz
+  udp: true
+
+- name: SG4-26
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-centerhpp
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg2tws.mainssh.xyz
+  udp: true
+
+- name: SG3-26
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 6eea2442-1f65-40c2-8b4d-2e3ea017238b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg2mws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg2mws.mainssh.xyz
+  udp: true
+
+- name: SG2-26
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 186bf639-c722-474a-a65c-b791d5dc450d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: sg-ray.ipservers.xyz
+  udp: true
+
+- name: SG1-26
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 4c5b01d1-7863-4c95-a74a-e4c6b142f139
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg3-ray.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /JAGOANSSH/
+    headers:
+      Host: sg3-ray.ipservers.xyz
+  udp: true
+
+
 proxies: 
 - name: Premium
   server: 104.26.6.171
