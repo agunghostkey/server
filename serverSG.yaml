@@ -1,4 +1,4 @@
-
+proxies:
 - name: SG9-26
   server: 104.26.6.171
   type: vmess
@@ -112,8 +112,6 @@
       Host: sg3-ray.ipservers.xyz
   udp: true
 
-
-proxies: 
 - name: Premium
   server: 104.26.6.171
   port: 443
