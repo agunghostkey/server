@@ -1,22 +1,22 @@
 ---
 proxies:
 
-- name: SHM2-23NOV
-  server: 104.26.6.171
-  type: vmess
-  port: 443
-  uuid: 9c9600a4-fbb0-4f85-ae41-edc4761bc40e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sgm2ray.serverip.my.id
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: sgm2ray.serverip.my.id
-  udp: true
+ - name: SHM2-23NOV
+   server: 104.26.6.171
+   type: vmess
+   port: 443
+   uuid: 9c9600a4-fbb0-4f85-ae41-edc4761bc40e
+   alterId: 0
+   cipher: auto
+   tls: true
+   skip-cert-verify: true
+   servername: sgm2ray.serverip.my.id
+   network: ws
+   ws-opts:
+     path: /serverssh.net
+     headers:
+       Host: sgm2ray.serverip.my.id
+   udp: true
 
   - name: SG9-26
     server: 104.26.6.171
