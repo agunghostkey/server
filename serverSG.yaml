@@ -1,6 +1,6 @@
 proxies:
   
-  - name: serverssh-Hsbvsda
+  - name: Sgm2-23nov
     server: 104.26.6.171
     type: vmess
     port: 443
