@@ -1,4 +1,20 @@
 proxies:
+  - name: WIJAYA
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: b6447123-ad54-41cf-9f4a-f43b7a647605
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-wjy.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-wjy.estebuh.my.id
+    udp: true
   - name: ID7-26
     server: 104.26.6.171
     type: vmess
