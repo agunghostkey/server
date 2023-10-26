@@ -32,3 +32,20 @@ proxies:
       headers:
         Host: id1-ray.ipservers.xyz
     udp: true
+
+  - name: jago2 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 42167578-6708-4a6c-8c27-291837fe1dcd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id2-ray.ipservers.xyz
+    udp: true
