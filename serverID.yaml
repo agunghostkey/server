@@ -15,3 +15,20 @@ proxies:
       headers:
         Host: id-akamai.estebuh.my.id
     udp: true
+
+  - name: jago 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: abee9129-6acd-410a-b3e1-8a6f1f1d5428
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id1-ray.ipservers.xyz
+    udp: true
