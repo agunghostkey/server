@@ -126,3 +126,20 @@ proxies:
       headers:
         Host: frmws.mainssh.xyz
     udp: true
+
+  - name: fast 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: d0128d20-73b4-11ee-b530-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-3.0rd.net
+    network: ws
+    ws-opts:
+      path: /vz9rcnab
+      headers:
+        Host: sg-3.0rd.net
+    udp: true
