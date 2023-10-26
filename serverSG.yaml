@@ -29,6 +29,39 @@ proxies:
         Host: sgm2ray.serverip.my.id
     udp: true
 
+  - name: SGM 11 Nov
+    type: vmess
+    server: 104.26.6.171
+    port: 443
+    uuid: f222379a-3b26-4061-bc74-f504f899c32a
+    alterId: 0
+    cipher: auto
+    udp: true
+    skip-cert-verify: true
+    tls: true
+    servername: sgm1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sgm1ray.serverip.my.id
+
+  - name: SGM 17 NOV
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 03357bc1-8a67-4ded-b407-16f5e6eafcd2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgm1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sgm1ray.serverip.my.id
+
   - name: sgray-02
     server: 104.26.6.171
     type: vmess
@@ -63,129 +96,6 @@ proxies:
         Host: sg3-ray.ipservers.xyz
     udp: true
     
-  - name: SG5-26
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-hoppssa
-    skip-cert-verify: true
-    sni: sg3tws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg3tws.mainssh.xyz
-    udp: true
-  - name: SG4-26
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-centerhpp
-    skip-cert-verify: true
-    sni: sg2tws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg2tws.mainssh.xyz
-    udp: true
-  - name: SG3-26
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 6eea2442-1f65-40c2-8b4d-2e3ea017238b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2mws.mainssh.xyz
-    udp: true
-  - name: SG2-26
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 186bf639-c722-474a-a65c-b791d5dc450d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg-ray.ipservers.xyz
-    udp: true
-  - name: SG1-26
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 4c5b01d1-7863-4c95-a74a-e4c6b142f139
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg3-ray.ipservers.xyz
-    udp: true
-
-  - name: SGM 11 Nov
-    type: vmess
-    server: 104.26.6.171
-    port: 443
-    uuid: f222379a-3b26-4061-bc74-f504f899c32a
-    alterId: 0
-    cipher: auto
-    udp: true
-    skip-cert-verify: true
-    tls: true
-    servername: sgm1ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sgm1ray.serverip.my.id
-  - name: SG-24
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 30fd64dd-c150-4571-a374-4b2ea16f5e0b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: v2ray.josvpn.me
-    udp: true
-  - name: SGM 17 NOV
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 03357bc1-8a67-4ded-b407-16f5e6eafcd2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgm1ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sgm1ray.serverip.my.id
-    udp: true
   - name: Limited HWD 25
     server: 104.26.6.171
     port: 443
@@ -199,32 +109,7 @@ proxies:
       headers:
         Host: sg-5.test3.net
     udp: true
-  - name: Howdy 25
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: fbad2d40-6d0e-11ee-8c60-1239d0255272
-    skip-cert-verify: true
-    sni: sg-2.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-2.test3.net
-    udp: true
-  - name: sg main 25
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-Uahagga
-    skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgtws.mainssh.xyz
-    udp: true
+
   - name: SG4-29
     server: 104.26.6.171
     port: 443
