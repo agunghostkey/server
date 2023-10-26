@@ -66,3 +66,20 @@ proxies:
       headers:
         Host: id-1.0rd.net
     udp: true
+
+  - name: main 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: ae0f93ad-f583-45d1-b161-1b414cefeecd
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: idmws.mainssh.xyz
+    udp: true
