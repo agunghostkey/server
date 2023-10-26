@@ -49,3 +49,20 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
+
+  - name: fastherza 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 7073d560-73b4-11ee-b937-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-1.0rd.net
+    network: ws
+    ws-opts:
+      path: /539uaeqt
+      headers:
+        Host: id-1.0rd.net
+    udp: true
