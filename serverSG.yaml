@@ -109,3 +109,20 @@ proxies:
       headers:
         Host: sgtws.mainssh.xyz
     udp: true
+
+  - name: fran 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 240af063-b28c-4096-93cb-ee7d7c8283d9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: frmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: frmws.mainssh.xyz
+    udp: true
