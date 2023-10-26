@@ -96,20 +96,6 @@ proxies:
         Host: sg3-ray.ipservers.xyz
     udp: true
     
-  - name: Limited HWD 25
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: a17b12a0-6d0e-11ee-a199-1239d0255272
-    skip-cert-verify: true
-    sni: sg-5.test3.net
-    network: ws
-    ws-opts:
-      path: /howdy
-      headers:
-        Host: sg-5.test3.net
-    udp: true
-
   - name: SG4-29
     server: 104.26.6.171
     port: 443
