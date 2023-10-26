@@ -143,3 +143,38 @@ proxies:
       headers:
         Host: sg-3.0rd.net
     udp: true
+    
+  - name: mainsgg 02
+    server: 104,26,6,171
+    type: vmess
+    port: 443
+    uuid: 63e830b3-7e23-4a74-9c54-28b68fa70120
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3mws.mainssh.xyz
+    network: ws
+    ws-opts:
+    path: /vmess
+    headers:
+    Host: sg3mws.mainssh.xyz
+    udp: true
+    
+  - name: sg main 02
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 97acde9d-3a02-4fcc-a83e-1ca9a6450889
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmws.mainssh.xyz
+    network: ws
+    ws-opts:
+    path: /vmess
+    headers:
+    Host: sgmws.mainssh.xyz
+    udp: true
+    
