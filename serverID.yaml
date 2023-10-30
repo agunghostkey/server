@@ -50,21 +50,21 @@ proxies:
         Host: id2-ray.ipservers.xyz
     udp: true
 
-  - name: fastherza 02
+  - name: idray2-7nov
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: 7073d560-73b4-11ee-b937-205c6d5f5d78
+    uuid: e8127e36-a88f-4324-9470-062c25ec90e9
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-1.0rd.net
+    servername: id2-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: /539uaeqt
+      path: /JAGOANSSH/
       headers:
-        Host: id-1.0rd.net
+        Host: id2-ray.ipservers.xyz
     udp: true
 
   - name: main 02
