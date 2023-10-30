@@ -1,19 +1,19 @@
 proxies:
-  - name: Id Akamai
+  - name: Idray-7nov
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: c18e3575-8828-4808-b2b6-8e377cba8216
+    uuid: ac9e29a2-e508-482c-8f58-47eee6f81bdc
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-akamai.estebuh.my.id
+    servername: id1-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: /vmess
+      path: /JAGOANSSH/
       headers:
-        Host: id-akamai.estebuh.my.id
+        Host: id1-ray.ipservers.xyz
     udp: true
 
   - name: jago 02
