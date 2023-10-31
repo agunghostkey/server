@@ -1,3 +1,4 @@
+---
 proxies:
   - name: Premium
     server: 104.26.6.171
@@ -11,7 +12,7 @@ proxies:
       path: /trojan-ws
       headers:
         Host: sgo-viprext.my.id
-    udp: true  
+    udp: true
   - name: Sgm2-23nov
     server: 104.26.6.171
     type: vmess
@@ -28,7 +29,6 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
-
   - name: SGM 11 Nov
     type: vmess
     server: 104.26.6.171
@@ -45,7 +45,6 @@ proxies:
       path: /serverssh.net
       headers:
         Host: sgm1ray.serverip.my.id
-
   - name: SGM 17 NOV
     server: 104.26.6.171
     type: vmess
@@ -61,7 +60,6 @@ proxies:
       path: /serverssh.net
       headers:
         Host: sgm1ray.serverip.my.id
-
   - name: 8nov
     server: 104.26.6.171
     type: vmess
@@ -78,7 +76,6 @@ proxies:
       headers:
         Host: sg2ray.serverip.my.id
     udp: true
-    
   - name: sg3ray-02
     server: 104.26.6.171
     type: vmess
@@ -95,7 +92,6 @@ proxies:
       headers:
         Host: sg3-ray.ipservers.xyz
     udp: true
-
   - name: exp
     server: 104.26.6.171
     port: 443
@@ -109,7 +105,6 @@ proxies:
       headers:
         Host: sgtws.mainssh.xyz
     udp: true
-
   - name: gren-7nov
     server: 104.26.6.171
     type: vmess
@@ -126,7 +121,6 @@ proxies:
       headers:
         Host: sg1ray.serverip.my.id
     udp: true
-
   - name: main-7nov
     server: 104.26.6.171
     type: vmess
@@ -143,7 +137,6 @@ proxies:
       headers:
         Host: sgmws.mainssh.xyz
     udp: true
-    
   - name: mainsgg 02
     server: 104,26,6,171
     type: vmess
@@ -160,7 +153,6 @@ proxies:
       headers:
         Host: sg3mws.mainssh.xyz
     udp: true
-    
   - name: sg main 02
     server: 104.26.6.171
     type: vmess
@@ -173,11 +165,10 @@ proxies:
     servername: sgmws.mainssh.xyz
     network: ws
     ws-opts:
-       path: /vmess
+      path: /vmess
       headers:
         Host: sgmws.mainssh.xyz
     udp: true
-    
   - name: hwd8
     server: 104.26.6.171
     port: 443
@@ -191,7 +182,6 @@ proxies:
       headers:
         Host: sg-2.test3.net
     udp: true
-    
   - name: hwd 8
     server: 104.26.6.171
     port: 443
@@ -205,8 +195,6 @@ proxies:
       headers:
         Host: sg2-trojan.bonds.id
     udp: true
-    
-
   - name: min8
     server: 104.26.6.171
     port: 443
@@ -220,7 +208,6 @@ proxies:
       headers:
         Host: sgtws.mainssh.xyz
     udp: true
-    
   - name: 1sep
     server: 104.26.6.171
     port: 443
@@ -234,4 +221,3 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
-    
