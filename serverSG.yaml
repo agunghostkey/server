@@ -206,3 +206,32 @@ proxies:
     Host: sg2-trojan.bonds.id
     udp: true
     
+
+    - name: min8
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-Hahauad
+    skip-cert-verify: true
+    sni: sgtws.mainssh.xyz
+    network: ws
+    ws-opts:
+    path: /trojan
+    headers:
+    Host: sgtws.mainssh.xyz
+    udp: true
+    
+    - name: 1sep
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Tggfss
+    skip-cert-verify: true
+    sni: sgcgo.ipservers.xyz
+    network: ws
+    ws-opts:
+    path: /trojan
+    headers:
+    Host: sgcgo.ipservers.xyz
+    udp: true
+    
