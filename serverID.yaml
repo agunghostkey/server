@@ -67,11 +67,11 @@ proxies:
         Host: id2-ray.ipservers.xyz
     udp: true
 
-  - name: main 02
+  - name: main 7
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: ae0f93ad-f583-45d1-b161-1b414cefeecd
+    uuid: eb49043c-0756-453b-8ed9-250103fbdf5f
     alterId: 0
     cipher: auto
     tls: true
