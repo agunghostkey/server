@@ -62,21 +62,21 @@ proxies:
       headers:
         Host: sgm1ray.serverip.my.id
 
-  - name: sgray-02
+  - name: 8nov
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: 5f668475-5a84-488f-b9dd-c945abad5b9f
+    uuid: 12c33274-5164-4237-b9e0-c1da46762fda
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg-ray.ipservers.xyz
+    servername: sg2ray.serverip.my.id
     network: ws
     ws-opts:
-      path: /JAGOANSSH/
+      path: /serverssh.net
       headers:
-        Host: sg-ray.ipservers.xyz
+        Host: sg2ray.serverip.my.id
     udp: true
     
   - name: sg3ray-02
@@ -96,7 +96,7 @@ proxies:
         Host: sg3-ray.ipservers.xyz
     udp: true
 
-  - name: SG4-29
+  - name: exp
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -110,21 +110,21 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 
-  - name: fran 02
+  - name: gren-7nov
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: 240af063-b28c-4096-93cb-ee7d7c8283d9
+    uuid: 9f4bd106-d554-4225-bb33-3d6ad93340a4
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: frmws.mainssh.xyz
+    servername: sg1ray.serverip.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /serverssh.net
       headers:
-        Host: frmws.mainssh.xyz
+        Host: sg1ray.serverip.my.id
     udp: true
 
   - name: fast 02
