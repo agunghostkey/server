@@ -156,9 +156,9 @@ proxies:
     servername: sg3mws.mainssh.xyz
     network: ws
     ws-opts:
-    path: /vmess
-    headers:
-    Host: sg3mws.mainssh.xyz
+      path: /vmess
+      headers:
+        Host: sg3mws.mainssh.xyz
     udp: true
     
   - name: sg main 02
@@ -173,12 +173,12 @@ proxies:
     servername: sgmws.mainssh.xyz
     network: ws
     ws-opts:
-    path: /vmess
-    headers:
-    Host: sgmws.mainssh.xyz
+       path: /vmess
+      headers:
+        Host: sgmws.mainssh.xyz
     udp: true
     
-    - name: hwd8
+ - name: hwd8
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -188,11 +188,11 @@ proxies:
     network: ws
     ws-opts:
     path: /howdy
-    headers:
-    Host: sg-2.test3.net
+       headers:
+         Host: sg-2.test3.net
     udp: true
     
-    - name: hwd 8
+ - name: hwd 8
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -201,13 +201,13 @@ proxies:
     sni: sg2-trojan.bonds.id
     network: ws
     ws-opts:
-    path: /howdy
-    headers:
-    Host: sg2-trojan.bonds.id
+      path: /howdy
+      headers:
+        Host: sg2-trojan.bonds.id
     udp: true
     
 
-    - name: min8
+ - name: min8
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -216,12 +216,12 @@ proxies:
     sni: sgtws.mainssh.xyz
     network: ws
     ws-opts:
-    path: /trojan
-    headers:
-    Host: sgtws.mainssh.xyz
+      path: /trojan
+      headers:
+        Host: sgtws.mainssh.xyz
     udp: true
     
-    - name: 1sep
+ - name: 1sep
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -230,8 +230,8 @@ proxies:
     sni: sgcgo.ipservers.xyz
     network: ws
     ws-opts:
-    path: /trojan
-    headers:
-    Host: sgcgo.ipservers.xyz
+      path: /trojan
+      headers:
+        Host: sgcgo.ipservers.xyz
     udp: true
     
