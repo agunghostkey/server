@@ -187,9 +187,9 @@ proxies:
     sni: sg-2.test3.net
     network: ws
     ws-opts:
-    path: /howdy
-       headers:
-         Host: sg-2.test3.net
+      path: /howdy
+      headers:
+        Host: sg-2.test3.net
     udp: true
     
  - name: hwd 8
