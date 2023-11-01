@@ -76,22 +76,7 @@ proxies:
       headers:
         Host: sg2ray.serverip.my.id
     udp: true
-  - name: sg3ray-02
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 96de6599-58b3-4d83-b5d4-038aa40912f9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg3-ray.ipservers.xyz
-    udp: true
+ 
   - name: exp
     server: 104.26.6.171
     port: 443
@@ -137,38 +122,7 @@ proxies:
       headers:
         Host: sgmws.mainssh.xyz
     udp: true
-  - name: mainsgg 02
-    server: 104,26,6,171
-    type: vmess
-    port: 443
-    uuid: 63e830b3-7e23-4a74-9c54-28b68fa70120
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg3mws.mainssh.xyz
-    udp: true
-  - name: sg main 02
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 97acde9d-3a02-4fcc-a83e-1ca9a6450889
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgmws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgmws.mainssh.xyz
-    udp: true
+ 
   - name: hwd8
     server: 104.26.6.171
     port: 443
@@ -221,3 +175,21 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+
+  - name: linode
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 5b10abec-e4c9-4f46-80ab-8c7e658d8d3b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-linode4.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-linode4.estebuh.my.id
+    udp: true
+    
