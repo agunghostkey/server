@@ -1,6 +1,6 @@
 ---
 proxies:
-  - name: PREMIUM
+  - name: PREMIUM Rext
     server: 104.26.6.171
     type: vmess
     port: 443
