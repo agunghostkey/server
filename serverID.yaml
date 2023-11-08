@@ -13,5 +13,22 @@ proxies:
         Host: id2go.ipservers.xyz
     udp: true
 
+  - name: idray 16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 2e1f913a-cb7d-4137-bfc7-eb5672e8906d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
+    
 
     
