@@ -1,6 +1,6 @@
 ---
 proxies:
-  - name: DO Rext
+  - name: PREMIUM
     server: 104.26.6.171
     type: vmess
     port: 443
