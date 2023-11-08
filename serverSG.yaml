@@ -62,3 +62,22 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+
+
+  - name: sg2mws 16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: ed82a356-9057-4cfc-8028-2b2f6baa3847
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2mws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg2mws.mainssh.xyz
+    udp: true
+    
