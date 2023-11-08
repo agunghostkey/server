@@ -81,3 +81,54 @@ proxies:
         Host: sg2mws.mainssh.xyz
     udp: true
     
+  - name: SG2ray-16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 81858fb4-8221-4c9e-941d-765edde7c8f4
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg2ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg2ray.serverip.my.id
+    udp: true
+    
+  - name: sgmws-16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 819de502-6663-4ca6-ae7f-039300ffafff
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sgmws.mainssh.xyz
+    udp: true    
+    
+  - name: sg-vmes 16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 9b59281d-f292-4b5c-8464-cbd9e55fc24d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-vmess.greenssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-vmess.greenssh.xyz
+    udp: true
+    
