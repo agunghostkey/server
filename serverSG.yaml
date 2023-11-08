@@ -158,11 +158,11 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: vm.sg.serverfast.pw
+    servername: sg.serverfast.pw
     network: ws
     ws-opts:
       path: /v2ray-vmess/tls
       headers:
-        Host: vm.sg.serverfast.pw
+        Host: sg.serverfast.pw
     udp: true
     
