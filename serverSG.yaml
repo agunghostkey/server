@@ -131,3 +131,38 @@ proxies:
         Host: sg-vmess.greenssh.xyz
     udp: true
     
+    
+  - name: lionsg-12des
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 1ac8af08-4ae6-4e7d-856e-2430d60478b2
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg.serverfast.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/tls
+      headers:
+        Host: sg.serverfast.pw
+    udp: true
+    
+  - name: lionsg4-12des
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 0f03e69e-f655-45f9-a63d-f47fc3705365
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: vm.sg.serverfast.pw
+    network: ws
+    ws-opts:
+      path: /v2ray-vmess/tls
+      headers:
+        Host: vm.sg.serverfast.pw
+    udp: true
+    
