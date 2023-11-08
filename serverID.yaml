@@ -1,21 +1,4 @@
 proxies:
-  - name: Idray-7nov
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: ac9e29a2-e508-482c-8f58-47eee6f81bdc
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: id1-ray.ipservers.xyz
-    udp: true
-
   - name: ID2 GO 16
     server: 104.26.6.171
     port: 443
