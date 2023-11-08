@@ -1,17 +1,20 @@
 ---
 proxies:
-  - name: Premium
+  - name: DO Rext
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: linodcsvpnn_hidessh
+    uuid: dosoooo_hidessh
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sgo-viprext.my.id
+    servername: sgd-viprext.my.id
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /vmess
       headers:
-        Host: sgo-viprext.my.id
+        Host: sgd-viprext.my.id
     udp: true
   - name: Sgm2-23nov
     server: 104.26.6.171
