@@ -1,5 +1,5 @@
 proxies:
-  - name: sgdo Vip
+  - name: sgdo rx
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -8,7 +8,7 @@ proxies:
     sni: sg2-vip.csrvpn.net
     network: ws
     ws-opts:
-      path: /trojan-ws
+      path: /trojan
       headers:
         Host: sg2-vip.csrvpn.net
     udp: true
