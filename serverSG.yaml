@@ -3,14 +3,14 @@ proxies:
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: sghddi_hidessh
+    password: gghjggf_hidessh
     skip-cert-verify: true
-    sni: sgd-viprext.my.id
+    sni: sg2-vip.csrvpn.net
     network: ws
     ws-opts:
       path: /trojan-ws
       headers:
-        Host: sgd-viprext.my.id
+        Host: sg2-vip.csrvpn.net
     udp: true
     
   - name: PREMIUM Rext
