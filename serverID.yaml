@@ -47,33 +47,5 @@ proxies:
         Host: idmws.mainssh.xyz
     udp: true
 
-  - name: 18nv
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: jagoanssh-Sjjsjjkw
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-      Host: id1go.ipservers.xyz
-    udp: true
-    
-
-  - name: idg18
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: jagoanssh-Hshwhdw
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id1go.ipservers.xyz
-    udp: true
-        
+  
     
