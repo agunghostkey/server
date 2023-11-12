@@ -13,7 +13,7 @@ proxies:
         Host: sg2-vip.csrvpn.net
     udp: true
  
-  - name: PREMIUM Rext
+  - name: PREMIUM Nusa
     server: 104.26.6.171
     type: vmess
     port: 443
