@@ -1,18 +1,4 @@
 proxies:
-  - name: sgdo rx
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: gghjggf_hidessh
-    skip-cert-verify: true
-    sni: sg2-vip.csrvpn.net
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg2-vip.csrvpn.net
-    udp: true
-    
   - name: PREMIUM Rext
     server: 104.26.6.171
     type: vmess
