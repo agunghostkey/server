@@ -3,6 +3,37 @@ proxies:
     server: 104.26.6.171
     type: vmess
     port: 443
+    uuid: 
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-gcloud2.estebuh.my.id
+    udp: true
+    
+  - name: sgdo rx
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: gghjggf_hidessh
+    skip-cert-verify: true
+    sni: sg2-vip.csrvpn.net
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg2-vip.csrvpn.net
+    udp: true
+ 
+  - name: PREMIUM Rext
+    server: 104.26.6.171
+    type: vmess
+    port: 443
     uuid: 9aba3368-dae4-49e8-b483-4d0b5e0fe4ce
     alterId: 0
     cipher: auto
@@ -15,4 +46,3 @@ proxies:
       headers:
         Host: id-gcloud2.estebuh.my.id
     udp: true
-    
