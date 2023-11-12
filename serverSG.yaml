@@ -229,4 +229,82 @@ proxies:
         Host: v2ray.josvpn.me
     udp: true
     
+  - name: ID2 GO 16
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Gnnjjkmmm
+    skip-cert-verify: true
+    sni: id2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2go.ipservers.xyz
+    udp: true
+
+  - name: idray 16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 2e1f913a-cb7d-4137-bfc7-eb5672e8906d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
+    
+  - name: idmws-16
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: fac81c4b-6135-4a16-9fd8-da593a798c03
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: idmws.mainssh.xyz
+    udp: true
+
+
+  - name: 18nv
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Sjjsjjkw
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+      Host: id1go.ipservers.xyz
+    udp: true
+    
+
+  - name: idg18
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Hshwhdw
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
+          
     
