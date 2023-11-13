@@ -1,29 +1,49 @@
 proxies:
-  - name: sgdo rx
+  - name: go-21
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: gghjggf_hidessh
+    password: jagoanssh-Bbnjjvgf
     skip-cert-verify: true
-    sni: sg2-vip.csrvpn.net
+    sni: id1go.ipservers.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg2-vip.csrvpn.net
+        Host: id1go.ipservers.xyz
     udp: true
- 
-  - name: NUSA NET 2 ID
+    
+  - name: main-21
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: ab451c73-45d0-4628-91b0-29236c4e484b
+    uuid: af66029d-b7ea-4d5b-b71b-90deb8136e9f
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-nusa2.estebuh.my.id
+    servername: idmws.mainssh.xyz
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: id-nusa2.estebuh.my.id
+        Host: idmws.mainssh.xyz
+    udp: true
+    
+  - name: serv-21
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 2f7e7fee-e833-48bd-b590-fc19b2f7e2d9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
     udp: true
     
