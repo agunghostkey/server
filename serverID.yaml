@@ -13,19 +13,17 @@ proxies:
         Host: sg2-vip.csrvpn.net
     udp: true
  
-  - name: PREMIUM Nusa
+  - name: NUSA NET 2 ID
     server: 104.26.6.171
-    type: vmess
     port: 443
-    uuid: 9aba3368-dae4-49e8-b483-4d0b5e0fe4ce
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: ab451c73-45d0-4628-91b0-29236c4e484b
     skip-cert-verify: true
-    servername: id-gcloud2.estebuh.my.id
+    sni: id-nusa2.estebuh.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: id-gcloud2.estebuh.my.id
+        Host: id-nusa2.estebuh.my.id
     udp: true
+    
