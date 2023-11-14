@@ -11,22 +11,6 @@ proxies:
       path: /trojan
       headers:
         Host: sg2-vip.csrvpn.net
-    udp: true 
-  - name: PREMIUM Rext
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: dosoooo_hidessh
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgd-viprext.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgd-viprext.my.id
     udp: true
     
   - name: Sgm2-23nov
