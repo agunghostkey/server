@@ -16,7 +16,7 @@ proxies:
         Host: sgd-viprext.my.id
     udp: true
 
-  - name SG-DO CSRVPN
+  - name: SG-DO CSRVPN
     server: 104.26.6.171
     port: 443
     type: trojan
