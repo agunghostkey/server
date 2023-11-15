@@ -16,19 +16,21 @@ proxies:
         Host: sgd-viprext.my.id
     udp: true
 
-  - name: lonahah_hidessh
+  - name: idnhfa_hidessh
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: ff060faa-2e7c-4083-aab2-702d18dac23b
+    password: d07aa83a-8140-430d-a146-0b8e28cf4720
     skip-cert-verify: true
-    sni: sg-gf.webkuy.my.id
+    sni: ikd-viprext.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /hidessh-trojan
       headers:
-        Host: sg-gf.webkuy.my.id
+        Host: ikd-viprext.my.id
     udp: true
+    
+    
     
   - name: Sgm2-23nov
     server: 104.26.6.171
