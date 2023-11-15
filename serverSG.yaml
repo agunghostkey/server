@@ -30,7 +30,6 @@ proxies:
         Host: sg-gf.webkuy.my.id
     udp: true
     
-    
   - name: Sgm2-23nov
     server: 104.26.6.171
     type: vmess
