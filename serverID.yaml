@@ -1,6 +1,6 @@
 proxies:
   - name: heszjaa_hidessh
-    server: id-herza1.estebuh.my.id
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: cd0887c4-4641-4f06-aa90-33c19a6acbb5
