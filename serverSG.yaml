@@ -16,7 +16,6 @@ proxies:
         Host: sgd-viprext.my.id
     udp: true
 
-
   - name: sgdo7
     server: 104.26.6.171
     port: 443
