@@ -1,4 +1,18 @@
 proxies:
+  - name: heszjaa_hidessh
+    server: id-herza1.estebuh.my.id
+    port: 443
+    type: trojan
+    password: cd0887c4-4641-4f06-aa90-33c19a6acbb5
+    skip-cert-verify: true
+    sni: id-herza1.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-herza1.estebuh.my.id
+    udp: true
+
   - name: go-21
     server: 104.26.6.171
     port: 443
