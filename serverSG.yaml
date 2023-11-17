@@ -15,22 +15,6 @@ proxies:
       headers:
         Host: sgd-viprext.my.id
     udp: true
-
-  - name: idnhfa_hidessh
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: d07aa83a-8140-430d-a146-0b8e28cf4720
-    skip-cert-verify: true
-    sni: ikd-viprext.my.id
-    network: ws
-    ws-opts:
-      path: /hidessh-trojan
-      headers:
-        Host: ikd-viprext.my.id
-    udp: true
-    
-    
     
   - name: Sgm2-23nov
     server: 104.26.6.171
@@ -49,22 +33,6 @@ proxies:
         Host: sgm2ray.serverip.my.id
     udp: true
 
-  - name: SGM 17 NOV
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 03357bc1-8a67-4ded-b407-16f5e6eafcd2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgm1ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sgm1ray.serverip.my.id
-  
   - name: 1sep
     server: 104.26.6.171
     port: 443
@@ -77,93 +45,6 @@ proxies:
       path: /trojan
       headers:
         Host: sgcgo.ipservers.xyz
-    udp: true
-
-
-  - name: sg2mws 16
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: ed82a356-9057-4cfc-8028-2b2f6baa3847
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2mws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg2mws.mainssh.xyz
-    udp: true
-    
-  - name: SG2ray-16
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 81858fb4-8221-4c9e-941d-765edde7c8f4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg2ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sg2ray.serverip.my.id
-    udp: true
-    
-  - name: sgmws-16
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 819de502-6663-4ca6-ae7f-039300ffafff
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgmws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sgmws.mainssh.xyz
-    udp: true    
-    
-  - name: sg-vmes 16
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 9b59281d-f292-4b5c-8464-cbd9e55fc24d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg-vmess.greenssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: sg-vmess.greenssh.xyz
-    udp: true
-    
-    
-  - name: lionsg-12des
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 1ac8af08-4ae6-4e7d-856e-2430d60478b2
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg.serverfast.pw
-    network: ws
-    ws-opts:
-      path: /v2ray-vmess/tls
-      headers:
-        Host: sg.serverfast.pw
     udp: true
     
   - name: lionsg4-12des
@@ -182,53 +63,3 @@ proxies:
       headers:
         Host: sg.serverfast.pw
     udp: true
-
-    
-  - name: sshmax-turkiizjs
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 278bc695-bbfd-4e3d-8144-7d5acf46f53c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: tr2-vmess.sshmax.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: tr2-vmess.sshmax.xyz
-    udp: true
-    
-  - name: sgt1-16
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 62cc0095-6cb1-4d1e-a0d4-14a99a4a7e2f
-    skip-cert-verify: true
-    sni: sgt1.greenssh.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt1.greenssh.xyz
-    udp: true
-    
-  - name: v2ray-16
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 65354eb5-2a28-4b44-ae9b-acacfa00eb0d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: v2ray.josvpn.me
-    udp: true
-    
