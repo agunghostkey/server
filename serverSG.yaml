@@ -15,6 +15,22 @@ proxies:
       headers:
         Host: sgd-viprext.my.id
     udp: true
+
+
+  - name: sgdo7
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: e95859d7-58b1-4078-aee0-3a24527c356c
+    skip-cert-verify: true
+    sni: sg-do7.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg-do7.estebuh.my.id
+    udp: true
+
     
   - name: Sgm2-23nov
     server: 104.26.6.171
