@@ -46,4 +46,37 @@ proxies:
       headers:
         Host: idray.serverip.my.id
     udp: true
+
+  - name: IDTWS 25
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-Hahggas
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtws.mainssh.xyz
+    udp: true
+    
+  - name: ID1 25
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: ff2d6da2-0ce5-44d0-994b-f6beb739a671
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id1-ray.ipservers.xyz
+    udp: true
+    
+
     
