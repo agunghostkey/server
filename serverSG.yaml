@@ -16,20 +16,33 @@ proxies:
         Host: sgd-viprext.my.id
     udp: true
 
-  - name: sgdo7
+  - name: X-ray 25
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: e95859d7-58b1-4078-aee0-3a24527c356c
+    password: 7a0fa3ba-3a2c-4aa6-a811-3c905c7a31d0
     skip-cert-verify: true
-    sni: sg-do7.estebuh.my.id
+    sni: xray.josvpn.me
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: sg-do7.estebuh.my.id
+        Host: xray.josvpn.me
     udp: true
-
+        
+  - name: v2ray 25
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 6b4a4c87-b2b5-4d31-9413-6ee8b0106fbb
+    skip-cert-verify: true
+    sni: v2ray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: v2ray.josvpn.me
+    udp: true
     
   - name: Sgm2-23nov
     server: 104.26.6.171
@@ -62,19 +75,16 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
     
-  - name: lionsg4-12des
+  - name: howdy25
     server: 104.26.6.171
-    type: vmess
     port: 443
-    uuid: 0f03e69e-f655-45f9-a63d-f47fc3705365
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 92594890-85d0-11ee-9323-1239d0255272
     skip-cert-verify: true
-    servername: sg.serverfast.pw
+    sni: sg-2.test3.net
     network: ws
     ws-opts:
-      path: /v2ray-vmess/tls
+      path: /howdy
       headers:
-        Host: sg.serverfast.pw
+        Host: sg-2.test3.net
     udp: true
