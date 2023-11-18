@@ -16,6 +16,21 @@ proxies:
         Host: sgd-viprext.my.id
     udp: true
 
+
+  - name: sg3go 25
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Babvxan
+    skip-cert-verify: true
+    sni: sg3go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3go.ipservers.xyz
+    udp: true
+
   - name: X-ray 25
     server: 104.26.6.171
     port: 443
