@@ -1,6 +1,6 @@
 proxies:
   - name: go-21
-    server: 104.26.6.171
+    server: 104.16.226.91
     port: 443
     type: trojan
     password: jagoanssh-Bbnjjvgf
@@ -14,7 +14,7 @@ proxies:
     udp: true
     
   - name: main-21
-    server: 104.26.6.171
+    server: 104.16.226.91
     type: vmess
     port: 443
     uuid: af66029d-b7ea-4d5b-b71b-90deb8136e9f
@@ -31,7 +31,7 @@ proxies:
     udp: true
     
   - name: serv-21
-    server: 104.26.6.171
+    server: 104.16.226.91
     type: vmess
     port: 443
     uuid: 2f7e7fee-e833-48bd-b590-fc19b2f7e2d9
@@ -48,7 +48,7 @@ proxies:
     udp: true
 
   - name: IDTWS 25
-    server: 104.26.6.171
+    server: 104.16.226.91
     port: 443
     type: trojan
     password: mainssh-Hahggas
@@ -62,7 +62,7 @@ proxies:
     udp: true
     
   - name: ID1 25
-    server: 104.26.6.171
+    server: 104.16.226.91
     type: vmess
     port: 443
     uuid: ff2d6da2-0ce5-44d0-994b-f6beb739a671
