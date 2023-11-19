@@ -1,19 +1,19 @@
 proxies:
-  - name: PREMIUM Rext
+  - name: SGO Gaming
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: dosoooo_hidessh
+    uuid: dolowgame_hidessh
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgd-viprext.my.id
+    servername: sgo-viprext.my.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sgd-viprext.my.id
+        Host: sgo-viprext.my.id
     udp: true
 
   - name: sg3go 25
