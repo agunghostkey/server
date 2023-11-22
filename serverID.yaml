@@ -17,67 +17,20 @@ proxies:
         Host: id1-ray.ipservers.xyz
     udp: true
 
-  - name: go-21
-    server: 104.16.226.91
+  - name: id1go 27
+    server: 104.26.6.171
     port: 443
     type: trojan
-    password: jagoanssh-Bbnjjvgf
+    password: jagoanssh-Idgoosk
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
-    ws-opts:
+      ws-opts:
       path: /trojan
       headers:
         Host: id1go.ipservers.xyz
     udp: true
-    
-  - name: main-21
-    server: 104.16.226.91
-    type: vmess
-    port: 443
-    uuid: af66029d-b7ea-4d5b-b71b-90deb8136e9f
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idmws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: idmws.mainssh.xyz
-    udp: true
-    
-  - name: serv-21
-    server: 104.16.226.91
-    type: vmess
-    port: 443
-    uuid: 2f7e7fee-e833-48bd-b590-fc19b2f7e2d9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: idray.serverip.my.id
-    udp: true
 
-  - name: IDTWS 25
-    server: 104.16.226.91
-    port: 443
-    type: trojan
-    password: mainssh-Hahggas
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtws.mainssh.xyz
-    udp: true
 
     
 
