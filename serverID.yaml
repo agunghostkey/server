@@ -1,7 +1,4 @@
 proxies:
-    
-
-
   - name: nusnnets_hidessh
     server: 104.26.6.171
     type: vmess
