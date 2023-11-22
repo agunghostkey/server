@@ -31,6 +31,19 @@ proxies:
         Host: id1go.ipservers.xyz
     udp: true
 
+  - name: i2go 27
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Id2gohs
+    skip-cert-verify: true
+    sni: id2go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id2go.ipservers.xyz
+    udp: true
 
     
 
