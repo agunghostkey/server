@@ -25,7 +25,7 @@ proxies:
     skip-cert-verify: true
     sni: id1go.ipservers.xyz
     network: ws
-      ws-opts:
+    ws-opts:
       path: /trojan
       headers:
         Host: id1go.ipservers.xyz
