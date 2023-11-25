@@ -16,18 +16,21 @@ proxies:
         Host: sgo-viprext.my.id
     udp: true
 
-  - name: sg3go 25
+  - name: 03-12
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: jagoanssh-Babvxan
+    uuid: fd30353a-f71b-49b1-a493-0d3912375be9
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: sg3go.ipservers.xyz
+    servername: sg2-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: /trojan
+      path: /JAGOANSSH/
       headers:
-        Host: sg3go.ipservers.xyz
+        Host: sg2-ray.ipservers.xyz
     udp: true
 
   - name: X-ray 25
