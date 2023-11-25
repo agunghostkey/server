@@ -32,19 +32,19 @@ proxies:
       headers:
         Host: sg2-ray.ipservers.xyz
     udp: true
-
-  - name: X-ray 25
+  
+  - name: greenssh-jsjbbas_trojan-go_ws
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: 7a0fa3ba-3a2c-4aa6-a811-3c905c7a31d0
+    password: 99301894-8466-40fe-bc2c-8e2d1a7bf5dd
     skip-cert-verify: true
-    sni: xray.josvpn.me
+    sni: sgt1.greenssh.xyz
     network: ws
     ws-opts:
-      path: /trojan
+      path: /websocket
       headers:
-        Host: xray.josvpn.me
+        Host: sgt1.greenssh.xyz
     udp: true
         
   - name: v2ray 25
