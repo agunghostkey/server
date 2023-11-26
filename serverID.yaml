@@ -1,38 +1,4 @@
 proxies:
-  - name: nusnne
-    server: 104.26.6.171
-    type: vmess
-    port: 80
-    uuid: a0fc6638-7b3a-4246-b2e0-a0071edc8525
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-nusa1.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-nusa1.estebuh.my.id
-    udp: true
-
-  - name: ID1 25
-    server: 104.16.226.91
-    type: vmess
-    port: 443
-    uuid: ff2d6da2-0ce5-44d0-994b-f6beb739a671
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id1-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: id1-ray.ipservers.xyz
-    udp: true
-
   - name: id1go 27
     server: 104.26.6.171
     port: 443
