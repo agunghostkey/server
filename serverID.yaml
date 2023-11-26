@@ -1,32 +1,35 @@
 proxies:
-  - name: id1go 27
+  - name: idnws-4
     server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: jagoanssh-Idgoosk
+    type: vmess
+    port: 80
+    uuid: e39cb360-62c0-4747-9c7f-eb912c2d8706
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    sni: id1go.ipservers.xyz
+    servername: 
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess-nonetls
       headers:
-        Host: id1go.ipservers.xyz
+        Host: idnws.mainssh.xyz
     udp: true
-
-  - name: i2go 27
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: jagoanssh-Id2gohs
-    skip-cert-verify: true
-    sni: id2go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id2go.ipservers.xyz
-    udp: true
-
     
-
+  - name: idray-4
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 44e7706f-0e86-4dde-aea4-352422735d05
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
     
