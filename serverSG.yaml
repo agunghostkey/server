@@ -33,19 +33,6 @@ proxies:
         Host: sg2-ray.ipservers.xyz
     udp: true
   
-  - name: green 03-12
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 99301894-8466-40fe-bc2c-8e2d1a7bf5dd
-    skip-cert-verify: true
-    sni: sgt1.greenssh.xyz
-    network: ws
-    ws-opts:
-      path: /websocket
-      headers:
-        Host: sgt1.greenssh.xyz
-    udp: true
 
   - name: 1sep
     server: 104.26.6.171
