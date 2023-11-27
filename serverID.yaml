@@ -33,3 +33,36 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
     
+  - name: id1-ray 4
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 0ef85ac7-67b1-4d58-8af5-909feb6b2810
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id1-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id1-ray.ipservers.xyz
+    udp: true
+    
+  - name: id2-ray 4
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 23ed2ab5-d965-4890-a24d-441b778b2fa9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id2-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: id2-ray.ipservers.xyz
+    udp: true
