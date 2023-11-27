@@ -48,20 +48,6 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
 
-  - name: sgtws-04
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-Hsjjhshhaa
-    skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgtws.mainssh.xyz
-    udp: true
-    
   - name: sg1ray-4
     server: 104.26.6.171
     type: vmess
