@@ -78,7 +78,7 @@ proxies:
         Host: sg2ray.serverip.my.id
     udp: true
 
-  - name: jos 4
+  - name: jos 5
     server: 104.26.6.171
     port: 443
     type: trojan
@@ -91,3 +91,21 @@ proxies:
       headers:
         Host: v2ray.josvpn.me
     udp: true
+    
+  - name: main 5
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-nusstrojj
+    skip-cert-verify: true
+    sni: sgtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgtws.mainssh.xyz
+    udp: true
+
+
+
+
