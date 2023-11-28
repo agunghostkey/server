@@ -16,11 +16,11 @@ proxies:
         Host: sgo-viprext.my.id
     udp: true
 
-  - name: 1sep
+  - name: 28des
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: jagoanssh-Tggfss
+    password: jagoanssh-28dessdssds
     skip-cert-verify: true
     sni: sgcgo.ipservers.xyz
     network: ws
