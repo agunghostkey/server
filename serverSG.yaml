@@ -107,6 +107,20 @@ proxies:
     udp: true
 
 
+  - name: sg3tws-6
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-Jabgfaw
+    skip-cert-verify: true
+    sni: sg3tws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg3tws.mainssh.xyz
+    udp: true
+
 
 
 
