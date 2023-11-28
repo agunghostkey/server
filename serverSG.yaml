@@ -77,21 +77,3 @@ proxies:
       headers:
         Host: sg2ray.serverip.my.id
     udp: true
-    
-  - name: sg3-ray 4
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: 979c778b-81f6-4e1d-a7f6-c53529503ee0
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg3-ray.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /JAGOANSSH/
-      headers:
-        Host: sg3-ray.ipservers.xyz
-    udp: true
-    
