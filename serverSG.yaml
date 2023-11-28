@@ -29,6 +29,20 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+    
+  - name: 28des 2
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-aasaaaaasadx
+    skip-cert-verify: true
+    sni: sgcgo.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgcgo.ipservers.xyz
+    udp: true
 
   - name: sg1ray-4
     server: 104.26.6.171
