@@ -1,19 +1,20 @@
 proxies:
-  - name: SGO Gaming
+
+  - name: PREMIUM
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: dolowgame_hidessh
+    uuid: dolsjsjaz_hidessh
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sgo-viprext.my.id
+    servername: sgd-viprext.my.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: sgo-viprext.my.id
+        Host: sgd-viprext.my.id
     udp: true
 
   - name: 28des
