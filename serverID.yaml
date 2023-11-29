@@ -75,7 +75,7 @@ proxies:
     skip-cert-verify: true
     sni: idtws.mainssh.xyz
     network: ws
-      ws-opts:
+    ws-opts:
       path: /trojan
       headers:
         Host: idtws.mainssh.xyz
