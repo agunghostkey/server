@@ -16,7 +16,7 @@ proxies:
         Host: idnws.mainssh.xyz
     udp: true
     
-  - name: idray-4
+  - name: bizznet-4
     server: 104.26.6.171
     type: vmess
     port: 443
