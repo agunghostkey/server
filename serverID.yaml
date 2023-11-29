@@ -33,7 +33,7 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
     
-  - name: id1-ray 4
+  - name: nusant 4
     server: 104.26.6.171
     type: vmess
     port: 443
