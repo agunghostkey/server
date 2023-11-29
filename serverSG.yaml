@@ -106,7 +106,7 @@ proxies:
         Host: sgtws.mainssh.xyz
     udp: true
 
-  - name: nusanet-6
+  - name: sgtws-6
     server: 104.26.6.171
     port: 443
     type: trojan
