@@ -66,3 +66,17 @@ proxies:
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
+
+  - name: idtws-6
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-Ttgyuuii
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtws.mainssh.xyz
+    udp: true
