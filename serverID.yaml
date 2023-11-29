@@ -50,7 +50,7 @@ proxies:
         Host: id1-ray.ipservers.xyz
     udp: true
     
-  - name: id2-ray 4
+  - name: nusanet 4
     server: 104.26.6.171
     type: vmess
     port: 443
@@ -67,7 +67,7 @@ proxies:
         Host: id2-ray.ipservers.xyz
     udp: true
 
-  - name: idtws-6
+  - name: nusanet-6
     server: 104.26.6.171
     port: 443
     type: trojan
