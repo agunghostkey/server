@@ -1,5 +1,5 @@
 proxies:
-  - name: idnws-4
+  - name: nusantt-4
     server: 104.26.6.171
     type: vmess
     port: 80
