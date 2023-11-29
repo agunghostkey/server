@@ -120,23 +120,22 @@ proxies:
         Host: sg3tws.mainssh.xyz
     udp: true
 
-  - name: mw-Y567
+  - name: sgm-30des
     server: 104.26.6.171
     type: vmess
     port: 443
-    uuid: febe3f5d-aa84-4e83-9678-a807848d5b83
+    uuid: ddc2ddd3-192a-42e9-ae1e-96e98ac89344
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: mw-e7h.scvip.my.id
+    servername: sgm2ray.serverip.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /serverssh.net
       headers:
-        Host: mw-e7h.scvip.my.id
+        Host: sgm2ray.serverip.my.id
     udp: true
-
 
 
 
