@@ -1,4 +1,21 @@
 proxies:
+  - name: Biznet x DTC
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: df36bd9e-24fc-4c38-83e9-c026e9519c29
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: a-bzn.inspiredau.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: a-bzn.inspiredau.biz.id
+    udp: true
+
   - name: nusantt-4
     server: 104.26.6.171
     type: vmess
