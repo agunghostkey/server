@@ -43,23 +43,6 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
-
-  - name: sg1ray-4
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: c224b5a6-35d2-484a-97fe-1fa9b1cb3af4
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sg1ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sg1ray.serverip.my.id
-    udp: true
     
   - name: sg2ray-4
     server: 104.26.6.171
