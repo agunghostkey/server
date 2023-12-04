@@ -16,3 +16,17 @@ proxies:
         Host: a-bzn.inspiredau.biz.id
     udp: true
 
+
+  - name: IDTWS-12
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-tokobake
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtws.mainssh.xyz
+    udp: true
