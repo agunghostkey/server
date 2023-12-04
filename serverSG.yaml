@@ -26,48 +26,6 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
-    
-  - name: jos 5
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 457941ea-ce8a-409a-aa93-4dce9488365a
-    skip-cert-verify: true
-    sni: v2ray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: v2ray.josvpn.me
-    udp: true
-    
-  - name: main 5
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-nusstrojj
-    skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgtws.mainssh.xyz
-    udp: true
-
-  - name: sgtws-6
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-Jabgfaw
-    skip-cert-verify: true
-    sni: sg3tws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg3tws.mainssh.xyz
-    udp: true
 
   - name: sgm-30des
     server: 104.26.6.171
@@ -84,6 +42,20 @@ proxies:
       path: /serverssh.net
       headers:
         Host: sgm2ray.serverip.my.id
+    udp: true
+
+  - name: SGTWS-12
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-Gguihff
+    skip-cert-verify: true
+    sni: sgtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgtws.mainssh.xyz
     udp: true
 
 
