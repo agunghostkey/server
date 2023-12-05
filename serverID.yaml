@@ -15,6 +15,22 @@ proxies:
       headers:
         Host: a-bzn.inspiredau.biz.id
     udp: true
+  - name: Nusanet 3 Premium
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: b2aec9ec-93ec-47b4-a60b-d1dadb6f7cae
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-nusa3.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-nusa3.estebuh.my.id
+    udp: true
   - name: IDTWS-12
     server: 104.26.6.171
     port: 443
