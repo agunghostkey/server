@@ -45,7 +45,7 @@ proxies:
         Host: id-nusa3.estebuh.my.id
     udp: true
 
-  - name: hlG9MynV
+  - name: 13
     server: 104.26.6.171
     port: 443
     type: trojan
