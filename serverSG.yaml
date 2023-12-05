@@ -57,19 +57,17 @@ proxies:
       headers:
         Host: sgtws.mainssh.xyz
     udp: true
-  - name: 13
+
+  - name: NUSA NET 1 ID
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: jagoanssh-Skksdxss
+    password: 2cc21db0-c22b-46a9-8466-e5f3a94761d8
     skip-cert-verify: true
-    sni: id1go.ipservers.xyz
+    sni: id-nusa1.estebuh.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id1go.ipservers.xyz
+        Host: id-nusa1.estebuh.my.id
     udp: true
-
-
-
