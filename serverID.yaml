@@ -15,6 +15,19 @@ proxies:
       headers:
         Host: a-bzn.inspiredau.biz.id
     udp: true
+  - name: IDTWS-12
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: mainssh-tokobake
+    skip-cert-verify: true
+    sni: idtws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: idtws.mainssh.xyz
+    udp: true
   - name: Nusanet 3 Premium
     server: 104.26.6.171
     type: vmess
@@ -30,17 +43,4 @@ proxies:
       path: /vmess
       headers:
         Host: id-nusa3.estebuh.my.id
-    udp: true
-  - name: IDTWS-12
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-tokobake
-    skip-cert-verify: true
-    sni: idtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: idtws.mainssh.xyz
     udp: true
