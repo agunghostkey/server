@@ -44,3 +44,17 @@ proxies:
       headers:
         Host: id-nusa3.estebuh.my.id
     udp: true
+
+  - name: hlG9MynV
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: jagoanssh-Skksdxss
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
