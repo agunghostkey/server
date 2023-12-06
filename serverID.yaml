@@ -28,33 +28,17 @@ proxies:
       headers:
         Host: idtws.mainssh.xyz
     udp: true
-  - name: Nusanet
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: b2aec9ec-93ec-47b4-a60b-d1dadb6f7cae
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-nusa3.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-nusa3.estebuh.my.id
-    udp: true
 
-  - name: NUSA NET 1 ID
+  - name: id nusa rmat
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: 2cc21db0-c22b-46a9-8466-e5f3a94761d8
+    password: 5c364c98-95d5-42a7-b9d5-b90d5b0fa748
     skip-cert-verify: true
-    sni: id-nusa1.estebuh.my.id
+    sni: idn-rmatvpn.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: id-nusa1.estebuh.my.id
+        Host: idn-rmatvpn.my.id
     udp: true
