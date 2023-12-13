@@ -14,8 +14,7 @@ proxies:
       path: /vmess
       headers:
         Host: id-mn3.webkuy.my.id
-    udp: true
-  - name: Biznet x DTC
+    udp: true  - name: Biznet x DTC
     server: 104.26.6.171
     type: vmess
     port: 443
