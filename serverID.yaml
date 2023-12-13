@@ -1,4 +1,21 @@
 proxies:
+
+  - name: biznetgio
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 4fde91ed-2ea9-48e8-b03d-b1e5c749a8a7
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-rmatvpn.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-rmatvpn.biz.id
+    udp: true
   - name: Biznet x DTC
     server: 104.26.6.171
     type: vmess
