@@ -1,4 +1,20 @@
 proxies:
+  - name: ID NUSA RMAT
+    server: 104.26.6.171
+    type: vmess
+    port: 443
+    uuid: 92f17cd5-e633-493b-a419-7b82ecefc704
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idn-rmatvpn.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: idn-rmatvpn.my.id
+    udp: true
   - name: PREMIUM
     server: 104.26.6.171
     port: 443
