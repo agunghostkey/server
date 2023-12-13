@@ -1,34 +1,16 @@
 proxies:
-  - name: idnusa3
+  - name: ID NUSA RMAT
     server: 104.26.6.171
-    type: vmess
     port: 443
-    uuid: 2fd60b90-8430-416f-92df-407544e491ea
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 03f0db88-1e3d-42a5-9701-276e364b90fe
     skip-cert-verify: true
-    servername: id-mn3.webkuy.my.id
+    sni: idn-rmatvpn.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: id-mn3.webkuy.my.id
-    udp: true  - name: Biznet x DTC
-    server: 104.26.6.171
-    type: vmess
-    port: 443
-    uuid: df36bd9e-24fc-4c38-83e9-c026e9519c29
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: a-bzn.inspiredau.biz.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: a-bzn.inspiredau.biz.id
+        Host: idn-rmatvpn.my.id
     udp: true
   - name: IDTWS-12
     server: 104.26.6.171
