@@ -1,17 +1,18 @@
 proxies:
-  - name: ID NUSA RMAT
+  - name: nusa2
     server: 104.26.6.171
     port: 443
     type: trojan
-    password: 03f0db88-1e3d-42a5-9701-276e364b90fe
+    password: 273ceb0e-c309-4aa0-928a-0ec76da9572c
     skip-cert-verify: true
-    sni: idn-rmatvpn.my.id
+    sni: id-nusa2.estebuh.my.id
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: idn-rmatvpn.my.id
+        Host: id-nusa2.estebuh.my.id
     udp: true
+
   - name: IDTWS-12
     server: 104.26.6.171
     port: 443
