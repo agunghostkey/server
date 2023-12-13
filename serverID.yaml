@@ -1,19 +1,16 @@
 proxies:
-  - name: biznetgio
+  - name: STB NUSA
     server: 104.26.6.171
-    type: vmess
     port: 443
-    uuid: 4fde91ed-2ea9-48e8-b03d-b1e5c749a8a7
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: 722d1d90-2076-4123-8ae3-d36f0a304c08
     skip-cert-verify: true
-    servername: id-rmatvpn.biz.id
+    sni: id-mn.webkuy.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: id-rmatvpn.biz.id
+        Host: id-mn.webkuy.my.id
     udp: true
   - name: Biznet x DTC
     server: 104.26.6.171
