@@ -1,16 +1,19 @@
 proxies:
-  - name: STB NUSA
+  - name: idnusa3
     server: 104.26.6.171
+    type: vmess
     port: 443
-    type: trojan
-    password: 722d1d90-2076-4123-8ae3-d36f0a304c08
+    uuid: 2fd60b90-8430-416f-92df-407544e491ea
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-mn.webkuy.my.id
+    servername: id-mn3.webkuy.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: id-mn.webkuy.my.id
+        Host: id-mn3.webkuy.my.id
     udp: true
   - name: Biznet x DTC
     server: 104.26.6.171
