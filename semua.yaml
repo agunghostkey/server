@@ -15,3 +15,16 @@ proxies:
       headers:
         Host: idn-rmatvpn.my.id
     udp: true
+  - name: Linode
+    server: 104.26.6.171
+    port: 443
+    type: trojan
+    password: 77ca39b0-1ef9-45bc-9937-491217566d8c
+    skip-cert-verify: true
+    sni: sg-linode4.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sg-linode4.estebuh.my.id
+    udp: true
