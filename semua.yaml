@@ -28,3 +28,51 @@ proxies:
       headers:
         Host: sg-linode4.estebuh.my.id
     udp: true
+
+  - name: 23-v2ray
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: ef40aa90-d2c7-41c9-8c60-9a1a56a073d8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: v2ray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: v2ray.josvpn.me
+    udp: true
+
+  - name: 23-xray
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 530196fb-314d-427f-93f7-554b9e65a4a7
+    skip-cert-verify: true
+    sni: xray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: xray.josvpn.me
+    udp: true
+
+  - name: 23-sgm
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: a05c30bb-d2c3-47e5-a28c-1404be252c8f
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sg1ray.serverip.my.id
+    udp: true
