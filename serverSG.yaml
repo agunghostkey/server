@@ -69,17 +69,3 @@ proxies:
       headers:
         Host: sgtws.mainssh.xyz
     udp: true
-
-  - name: 15-xray
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: 8c236e02-93d0-4232-8905-31d15fceb5aa
-    skip-cert-verify: true
-    sni: xray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: xray.josvpn.me
-    udp: true
