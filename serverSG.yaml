@@ -55,17 +55,3 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
-
-  - name: SGTWS-12
-    server: 104.26.6.171
-    port: 443
-    type: trojan
-    password: mainssh-Gguihff
-    skip-cert-verify: true
-    sni: sgtws.mainssh.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgtws.mainssh.xyz
-    udp: true
