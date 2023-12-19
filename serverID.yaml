@@ -1,6 +1,6 @@
 proxies:
   - name: ID NUSA RMAT
-    server: 104.26.6.171
+    server: 104.18.2.2
     type: vmess
     port: 443
     uuid: 92f17cd5-e633-493b-a419-7b82ecefc704
