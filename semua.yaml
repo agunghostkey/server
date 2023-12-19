@@ -1,4 +1,17 @@
 proxies:
+  - name: IKD3
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: f9039b91-925a-4a22-bd93-5e69cec88a66
+    skip-cert-verify: true
+    sni: id-ikd3.estebuh.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-ikd3.estebuh.my.id
+    udp: true
   - name: nusanet
     server: 104.18.2.2
     type: vmess
