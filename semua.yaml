@@ -71,52 +71,51 @@ proxies:
       headers:
         Host: sgm2ray.serverip.my.id
     udp: true
+  - name: vpns27
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: ca293f60-21b9-4c15-b408-d7ff8afceb62
+    skip-cert-verify: true
+    sni: xray.josvpn.me
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: xray.josvpn.me
+    udp: true
   
-- name: vpns27
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: ca293f60-21b9-4c15-b408-d7ff8afceb62
-  skip-cert-verify: true
-  sni: xray.josvpn.me
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: xray.josvpn.me
-  udp: true
+  - name: idmws27
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: 5f00110b-21c7-4c26-bd9d-aaa778b421a8
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idmws.mainssh.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: idmws.mainssh.xyz
+    udp: true
   
-- name: idmws27
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: 5f00110b-21c7-4c26-bd9d-aaa778b421a8
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: idmws.mainssh.xyz
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: idmws.mainssh.xyz
-  udp: true
-  
-- name: Idray27
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: fe67322c-eacc-4674-b198-e2049cf7fd4d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: idray.serverip.my.id
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: idray.serverip.my.id
-  udp: true
+  - name: Idray27
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: fe67322c-eacc-4674-b198-e2049cf7fd4d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
   
