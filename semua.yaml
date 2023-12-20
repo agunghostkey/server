@@ -1,5 +1,5 @@
 proxies:
-  - name: IKD3
+  - name: IKD5
     server: 104.18.2.2
     port: 443
     type: trojan
