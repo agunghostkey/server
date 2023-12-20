@@ -1,17 +1,4 @@
 proxies:
-  - name: IKD5
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: f43950c7-008a-45d7-9dd9-591dcfcada3f
-    skip-cert-verify: true
-    sni: id-ikd5.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id-ikd5.estebuh.my.id
-    udp: true
   - name: nusanet
     server: 104.18.2.2
     type: vmess
@@ -41,51 +28,46 @@ proxies:
       headers:
         Host: sg-linode4.estebuh.my.id
     udp: true
-
-  - name: 23-v2ray
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: ef40aa90-d2c7-41c9-8c60-9a1a56a073d8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: v2ray.josvpn.me
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: v2ray.josvpn.me
-    udp: true
-
-  - name: 23-xray
+  - name: 28des
     server: 104.18.2.2
     port: 443
     type: trojan
-    password: 530196fb-314d-427f-93f7-554b9e65a4a7
+    password: jagoanssh-28dessdssds
     skip-cert-verify: true
-    sni: xray.josvpn.me
+    sni: sgcgo.ipservers.xyz
     network: ws
     ws-opts:
       path: /trojan
       headers:
-        Host: xray.josvpn.me
+        Host: sgcgo.ipservers.xyz
+    udp: true  
+  - name: 28des 2
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: jagoanssh-aasaaaaasadx
+    skip-cert-verify: true
+    sni: sgcgo.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: sgcgo.ipservers.xyz
     udp: true
 
-  - name: 23-sgm
+  - name: sgm-30des
     server: 104.18.2.2
     type: vmess
     port: 443
-    uuid: a05c30bb-d2c3-47e5-a28c-1404be252c8f
+    uuid: ddc2ddd3-192a-42e9-ae1e-96e98ac89344
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: sg1ray.serverip.my.id
+    servername: sgm2ray.serverip.my.id
     network: ws
     ws-opts:
       path: /serverssh.net
       headers:
-        Host: sg1ray.serverip.my.id
+        Host: sgm2ray.serverip.my.id
     udp: true
