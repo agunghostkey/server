@@ -1,17 +1,14 @@
 proxies:
-  - name: ID NUSA RMAT
-    server: 104.18.2.2
-    type: vmess
+  - name: IKD
+    server: 104.26.6.171
     port: 443
-    uuid: 92f17cd5-e633-493b-a419-7b82ecefc704
-    alterId: 0
-    cipher: auto
-    tls: true
+    type: trojan
+    password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
     skip-cert-verify: true
-    servername: idn-rmatvpn.my.id
+    sni: id-ikd.webkuy.my.id
     network: ws
     ws-opts:
-      path: /vmess
+      path: /trojan
       headers:
-        Host: idn-rmatvpn.my.id
+        Host: id-ikd.webkuy.my.id
     udp: true
