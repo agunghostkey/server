@@ -1,4 +1,21 @@
 proxies:
+
+  - name: trial426120231223093532
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: aa972095-17a7-44f7-a3ea-44a8ec9b2a9c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id9.zevesh.host
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id9.zevesh.host
+    udp: true
   - name: IKD
     server: 104.18.2.2
     port: 443
