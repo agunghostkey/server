@@ -26,7 +26,7 @@ proxies:
         Host: sg-linode4.estebuh.my.id
     udp: true
   - name: jago29
-    server: 104.18.2.2
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: jagoanssh-29jannashv
