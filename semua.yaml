@@ -1,6 +1,6 @@
 proxies:
   - name: IKD
-    server: 104.18.2.2
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
@@ -13,7 +13,7 @@ proxies:
         Host: id-ikd.webkuy.my.id
     udp: true
   - name: Linode
-    server: 104.18.2.2
+    server: 104.26.6.171
     port: 443
     type: trojan
     password: 77ca39b0-1ef9-45bc-9937-491217566d8c
