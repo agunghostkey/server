@@ -38,7 +38,7 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
-  - name: sgm-30des
+  - name: sgm2-28
     server: 104.18.2.2
     type: vmess
     port: 443
@@ -53,4 +53,21 @@ proxies:
       path: /serverssh.net
       headers:
         Host: sgm2ray.serverip.my.id
+    udp: true
+
+  - name: sgm1-28
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: 1ca8308c-d3ab-4e81-8c12-c25f09cf94d9
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sgm1ray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: sgm1ray.serverip.my.id
     udp: true
