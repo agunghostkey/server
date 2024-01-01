@@ -1,6 +1,6 @@
 proxies:
   - name: IKD
-    server: 104.26.6.171
+    server: 104.18.2.2
     port: 443
     type: trojan
     password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
@@ -13,7 +13,7 @@ proxies:
         Host: id-ikd.webkuy.my.id
     udp: true
   - name: Linode
-    server: 104.26.6.171
+    server: 104.18.2.2
     port: 443
     type: trojan
     password: 77ca39b0-1ef9-45bc-9937-491217566d8c
@@ -26,7 +26,7 @@ proxies:
         Host: sg-linode4.estebuh.my.id
     udp: true
   - name: jago29
-    server: 104.26.6.171
+    server: 104.18.2.2
     port: 443
     type: trojan
     password: jagoanssh-29jannashv
@@ -39,7 +39,7 @@ proxies:
         Host: sgcgo.ipservers.xyz
     udp: true
   - name: sgm2-28
-    server: 104.26.6.171
+    server: 104.18.2.2
     type: vmess
     port: 443
     uuid: 7c5d2719-11d9-4c92-9bfe-d46c91a90b4d
@@ -56,7 +56,7 @@ proxies:
     udp: true
 
   - name: sgm1-28
-    server: 104.26.6.171
+    server: 104.18.2.2
     type: vmess
     port: 443
     uuid: 1ca8308c-d3ab-4e81-8c12-c25f09cf94d9
