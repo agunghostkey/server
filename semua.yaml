@@ -16,19 +16,24 @@ proxies:
         Host: id-ikd.rmatvpn.my.id
     udp: true
 
-  - name: IKD
-    server: 104.26.6.171
+ 
+  - name: Idnusaprem
+    server: 104.18.2.2
+    type: vmess
     port: 443
-    type: trojan
-    password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
+    uuid: 1aecc867-bde4-4377-bf8f-2954396d1862
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    sni: id-ikd.webkuy.my.id
+    servername: id-mn.webkuy.my.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: id-ikd.webkuy.my.id
+        Host: id-mn.webkuy.my.id
     udp: true
+
   - name: Linode
     server: 104.26.6.171
     port: 443
