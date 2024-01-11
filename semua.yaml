@@ -15,25 +15,22 @@ proxies:
       headers:
         Host: id-ikd.rmatvpn.my.id
     udp: true
-
- 
-  - name: Idnusaprem
+  - name: IKD
     server: 104.18.2.2
     type: vmess
     port: 443
-    uuid: 1aecc867-bde4-4377-bf8f-2954396d1862
+    uuid: e2ebec55-f6b6-4d66-9906-bb7838c76321
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id-mn.webkuy.my.id
+    servername: ikd.desutunnel.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: id-mn.webkuy.my.id
+        Host: ikd.desutunnel.id
     udp: true
-
   - name: Linode
     server: 104.26.6.171
     port: 443
