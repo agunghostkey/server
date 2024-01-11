@@ -1,4 +1,21 @@
 proxies:
+  - name: IKDRMAT
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: da35576b-4007-479a-a796-cb70efe7bb1b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id-ikd.rmatvpn.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-ikd.rmatvpn.my.id
+    udp: true
+
   - name: IKD
     server: 104.26.6.171
     port: 443
