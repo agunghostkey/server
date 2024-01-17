@@ -32,32 +32,6 @@ proxies:
       headers:
         Host: ikd.desutunnel.id
     udp: true
-  - name: IKD RG
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: dfd55a47-6df6-4816-b2b0-b1a5c8639261
-    skip-cert-verify: true
-    sni: id-ikd.webkuy.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id-ikd.webkuy.my.id
-    udp: true
-  - name: Linode RG
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 77ca39b0-1ef9-45bc-9937-491217566d8c
-    skip-cert-verify: true
-    sni: sg-linode4.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sg-linode4.estebuh.my.id
-    udp: true
   - name: jago29 RG
     server: 104.18.2.2
     port: 443
