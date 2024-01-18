@@ -60,6 +60,20 @@ proxies:
         Host: idray.serverip.my.id
     udp: true
 
+  - name: QeM
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: jagoanssh-Jajajbfqsd
+    skip-cert-verify: true
+    sni: id1go.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id1go.ipservers.xyz
+    udp: true
+
   - name: sgm2-28 RG
     server: 104.18.2.2
     type: vmess
