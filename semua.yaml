@@ -15,23 +15,6 @@ proxies:
       headers:
         Host: id-qw1.estebuh.my.id
     udp: true
-
-  - name: IKD
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: e2ebec55-f6b6-4d66-9906-bb7838c76321
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: ikd.desutunnel.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: ikd.desutunnel.id
-    udp: true
   - name: jago29 RG
     server: 104.18.2.2
     port: 443
