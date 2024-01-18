@@ -15,6 +15,20 @@ proxies:
       headers:
         Host: id-qw1.estebuh.my.id
     udp: true
+
+  - name: RMAT
+    server: 104.18.2.2
+    port: 443
+    type: trojan
+    password: 072456f8-f07e-4d1a-a3a7-b6176602c8b9
+    skip-cert-verify: true
+    sni: id-ikd.rmatvpn.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-ikd.rmatvpn.my.id
+    udp: true
   - name: jago29 RG
     server: 104.18.2.2
     port: 443
