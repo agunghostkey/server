@@ -42,6 +42,24 @@ proxies:
       headers:
         Host: sgcgo.ipservers.xyz
     udp: true
+
+  - name: serverssh-JNabgagad
+    server: 104.18.2.2
+    type: vmess
+    port: 443
+    uuid: 752bee6a-ca40-4ec0-95dc-73be4acb509c
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: idray.serverip.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh.net
+      headers:
+        Host: idray.serverip.my.id
+    udp: true
+
   - name: sgm2-28 RG
     server: 104.18.2.2
     type: vmess
