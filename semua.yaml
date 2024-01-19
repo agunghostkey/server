@@ -1,21 +1,4 @@
 proxies:
-  - name: qwords
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: 18fa43f3-8f3b-493c-92ad-1dea520a7ad6
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: id-qw1.estebuh.my.id
-    network: ws
-    ws-opts:
-      path: /vmess
-      headers:
-        Host: id-qw1.estebuh.my.id
-    udp: true
-
   - name: RMAT
     server: 104.18.2.2
     port: 443
