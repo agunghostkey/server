@@ -1,92 +1,72 @@
 proxies:
-  - name: RMAT
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: 072456f8-f07e-4d1a-a3a7-b6176602c8b9
-    skip-cert-verify: true
-    sni: id-ikd.rmatvpn.my.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id-ikd.rmatvpn.my.id
-    udp: true
-  - name: jago29 RG
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: jagoanssh-29jannashv
-    skip-cert-verify: true
-    sni: sgcgo.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: sgcgo.ipservers.xyz
-    udp: true
+- name: RMAT
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: 072456f8-f07e-4d1a-a3a7-b6176602c8b9
+  skip-cert-verify: true
+  sni: id-ikd.rmatvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-ikd.rmatvpn.my.id
+  udp: true
+- name: 5jan
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: jagoanssh-Jhhahasd
+  skip-cert-verify: true
+  sni: id1go.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1go.ipservers.xyz
+  udp: true
 
-  - name: serverssh-JNabgagad
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: 752bee6a-ca40-4ec0-95dc-73be4acb509c
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: idray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: idray.serverip.my.id
-    udp: true
+- name: 5jann
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: mainssh-Jsjahfdda
+  skip-cert-verify: true
+  sni: idtws.mainssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: idtws.mainssh.xyz
+  udp: true
 
-  - name: QeM
-    server: 104.18.2.2
-    port: 443
-    type: trojan
-    password: jagoanssh-Jajajbfqsd
-    skip-cert-verify: true
-    sni: id1go.ipservers.xyz
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: id1go.ipservers.xyz
-    udp: true
+- name: 5jannn
+  server: 104.26.6.171
+  port: 443
+  type: trojan
+  password: jagoanssh-Iahhags
+  skip-cert-verify: true
+  sni: id2go.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id2go.ipservers.xyz
+  udp: true
 
-  - name: sgm2-28 RG
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: 7c5d2719-11d9-4c92-9bfe-d46c91a90b4d
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgm2ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sgm2ray.serverip.my.id
-    udp: true
-
-  - name: sgm1-28 RG
-    server: 104.18.2.2
-    type: vmess
-    port: 443
-    uuid: 1ca8308c-d3ab-4e81-8c12-c25f09cf94d9
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    servername: sgm1ray.serverip.my.id
-    network: ws
-    ws-opts:
-      path: /serverssh.net
-      headers:
-        Host: sgm1ray.serverip.my.id
-    udp: true
+- name: 5jn
+  server: 104.26.6.171
+  type: vmess
+  port: 443
+  uuid: 73a039e0-979a-46ed-9b95-c1279b67a386
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: 104.22.24.131
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
+  udp: true
