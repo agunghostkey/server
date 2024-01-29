@@ -1,6 +1,6 @@
 proxies:
 - name: RMAT
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   type: trojan
   password: 072456f8-f07e-4d1a-a3a7-b6176602c8b9
@@ -13,7 +13,7 @@ proxies:
       Host: id-ikd.rmatvpn.my.id
   udp: true
 - name: 5jan
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   type: trojan
   password: jagoanssh-Jhhahasd
@@ -27,7 +27,7 @@ proxies:
   udp: true
 
 - name: 5jann
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   type: trojan
   password: mainssh-Jsjahfdda
@@ -41,7 +41,7 @@ proxies:
   udp: true
 
 - name: 5jannn
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   type: trojan
   password: jagoanssh-Iahhags
@@ -55,7 +55,7 @@ proxies:
   udp: true
 
 - name: 5jn
-  server: 104.26.6.171
+  server: 104.18.2.2
   type: vmess
   port: 443
   uuid: 73a039e0-979a-46ed-9b95-c1279b67a386
