@@ -3,14 +3,14 @@ proxies:
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 072456f8-f07e-4d1a-a3a7-b6176602c8b9
+  password: 218706a1-560d-482e-87fa-d053ecd14a18
   skip-cert-verify: true
   sni: id-ikd.rmatvpn.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-ikd.rmatvpn.my.id
+      Host: id-ikd2.rmatvpn.my.id
   udp: true
 - name: 5jan
   server: 104.18.2.2
