@@ -44,20 +44,19 @@ proxies:
       Host: sgm1ray.serverip.my.id
   udp: true
 
-- name: ikd RMAT Vmes
+- name: mediasaran
   server: 104.18.2.2
   type: vmess
-  port: 80
-  uuid: cc3a97f3-e1ec-4a90-8ebc-c64d4b61b8ef
+  port: 443
+  uuid: 2e62ba96-9b75-4987-b2f2-72f6d694374f
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
-  servername: 
+  servername: id-msa1.estebuh.my.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: id-ikd.rmatvpn.my.id
+      Host: id-msa1.estebuh.my.id
   udp: true
-
