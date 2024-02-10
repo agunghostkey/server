@@ -44,3 +44,20 @@ proxies:
       Host: sgm1ray.serverip.my.id
   udp: true
 
+- name: ikd RMAT Vmes
+  server: 104.18.2.2
+  type: vmess
+  port: 80
+  uuid: cc3a97f3-e1ec-4a90-8ebc-c64d4b61b8ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: 
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id-ikd.rmatvpn.my.id
+  udp: true
+
