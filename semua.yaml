@@ -44,19 +44,16 @@ proxies:
       Host: sgm1ray.serverip.my.id
   udp: true
 
-- name: mediasaran
+- name: ikdhig_hidessh
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: 2e62ba96-9b75-4987-b2f2-72f6d694374f
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: db335261-3e5c-4982-b03a-6ee2d96d0026
   skip-cert-verify: true
-  servername: id-msa1.estebuh.my.id
+  sni: id-ikd2.webkuy.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-msa1.estebuh.my.id
+      Host: id-ikd2.webkuy.my.id
   udp: true
