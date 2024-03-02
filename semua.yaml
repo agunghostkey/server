@@ -59,16 +59,16 @@ proxies:
       Host: sgm1ray.serverip.my.id
   udp: true
 
-- name: ikdhig_hidessh
+- name: Warna
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: db335261-3e5c-4982-b03a-6ee2d96d0026
+  password: 0a4be9c1-bed2-4d18-a86b-5c3de860ea31
   skip-cert-verify: true
-  sni: id-ikd2.webkuy.my.id
+  sni: id-warna.rmatvpn.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-ikd2.webkuy.my.id
+      Host: id-warna.rmatvpn.my.id
   udp: true
