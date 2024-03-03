@@ -42,33 +42,19 @@ proxies:
       Host: sgcgo.ipservers.xyz
   udp: true
 
-- name: SGM08
+- name: LINODE
   server: 104.18.2.2
   type: vmess
   port: 443
-  uuid: a9983352-8e9c-4a2c-ae6d-b8ff581dad44
+  uuid: 8784fa3d-3e47-4980-8c1a-934d3fce8ee1
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: 104.22.24.131
+  servername: id-akamai.estebuh.my.id
   network: ws
   ws-opts:
-    path: /serverssh.net
+    path: /vmess
     headers:
-      Host: sgm1ray.serverip.my.id
-  udp: true
-
-- name: Warna
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: 0a4be9c1-bed2-4d18-a86b-5c3de860ea31
-  skip-cert-verify: true
-  sni: id-warna.rmatvpn.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-warna.rmatvpn.my.id
+      Host: id-akamai.estebuh.my.id
   udp: true
