@@ -13,21 +13,6 @@ proxies:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
 
-- name: wijaya
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: 9639b846-7b8f-4720-95f7-fd8b464f3d7a
-  skip-cert-verify: true
-  sni: id-wj.webkuy.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-wj.webkuy.my.id
-  udp: true
-
-
 - name: 9mar
   server: 104.18.2.2
   port: 443
