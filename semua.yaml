@@ -12,21 +12,7 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-
-- name: 9mar
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: jagoanssh-KakjgfFa
-  skip-cert-verify: true
-  sni: sgcgo.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgcgo.ipservers.xyz
-  udp: true
-- name: LINODE Update
+- name: LINODE
   server: 104.18.2.2
   type: vmess
   port: 443
@@ -41,4 +27,17 @@ proxies:
     path: /vmess
     headers:
       Host: id-akamai.estebuh.my.id
+  udp: true
+- name: 9mar
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: jagoanssh-KakjgfFa
+  skip-cert-verify: true
+  sni: sgcgo.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sgcgo.ipservers.xyz
   udp: true
