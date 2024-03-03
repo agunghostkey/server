@@ -26,7 +26,6 @@ proxies:
     headers:
       Host: sgcgo.ipservers.xyz
   udp: true
-
 - name: LINODE
   server: 104.18.2.2
   type: vmess
