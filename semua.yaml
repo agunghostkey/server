@@ -28,6 +28,23 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
+- name: OCEAN
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: 9b38133b-12e7-4c26-ace7-48e3b3faae60
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sg-do6.estebuh.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg-do6.estebuh.my.id
+  udp: true
+
 - name: 9mar
   server: 104.18.2.2
   port: 443
