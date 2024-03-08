@@ -28,21 +28,19 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
-- name: OCEAN
-  server: 104.18.2.2
-  type: vmess
+
+- name: msa
+  server: 104.26.6.171
   port: 443
-  uuid: 9b38133b-12e7-4c26-ace7-48e3b3faae60
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 3a912fbc-0d8c-4cdd-95b2-a66f242ae795
   skip-cert-verify: true
-  servername: sg-do6.estebuh.my.id
+  sni: id-msa.webkuy.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: sg-do6.estebuh.my.id
+      Host: id-msa.webkuy.my.id
   udp: true
 
 - name: 9mar
