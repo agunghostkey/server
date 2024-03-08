@@ -30,7 +30,7 @@ proxies:
   udp: true
 
 - name: msa
-  server: 104.26.6.171
+  server: 104.18.2.2
   port: 443
   type: trojan
   password: 3a912fbc-0d8c-4cdd-95b2-a66f242ae795
