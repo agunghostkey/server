@@ -28,16 +28,19 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
-- name: ocean
+- name: OCEAN
   server: 104.18.2.2
+  type: vmess
   port: 443
-  type: trojan
-  password: w57K2dmONMsVe0LYxLOZkA
+  uuid: 39b73356-77f8-40b0-92b4-03a75571bf37
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sg-do4.estebuh.my.id
+  servername: sgp-rmatvpn.my.id
   network: ws
   ws-opts:
-    path: /trojan
+    path: /vmess
     headers:
-      Host: sg-do4.estebuh.my.id
+      Host: sgp-rmatvpn.my.id
   udp: true
