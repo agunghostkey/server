@@ -28,31 +28,16 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
-
-- name: msa
+- name: ocean
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 3a912fbc-0d8c-4cdd-95b2-a66f242ae795
+  password: w57K2dmONMsVe0LYxLOZkA
   skip-cert-verify: true
-  sni: id-msa.webkuy.my.id
+  sni: sg-do4.estebuh.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-msa.webkuy.my.id
-  udp: true
-
-- name: 9mar
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: jagoanssh-KakjgfFa
-  skip-cert-verify: true
-  sni: sgcgo.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgcgo.ipservers.xyz
+      Host: sg-do4.estebuh.my.id
   udp: true
