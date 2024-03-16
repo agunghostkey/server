@@ -28,19 +28,20 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
-- name: OCEAN
+
+- name: jagoanssh-Hsjbdsd
   server: 104.18.2.2
   type: vmess
   port: 443
-  uuid: 39b73356-77f8-40b0-92b4-03a75571bf37
+  uuid: 7e996853-cc33-40cc-aba7-005d830a8a1f
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: sgp-rmatvpn.my.id
+  servername: id2-ray.ipservers.xyz
   network: ws
   ws-opts:
-    path: /vmess
+    path: /JAGOANSSH/
     headers:
-      Host: sgp-rmatvpn.my.id
+      Host: id2-ray.ipservers.xyz
   udp: true
