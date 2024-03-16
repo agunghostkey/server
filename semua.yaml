@@ -45,3 +45,17 @@ proxies:
     headers:
       Host: id2-ray.ipservers.xyz
   udp: true
+
+- name: vmsz_7034_hidessh
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: 50b59732-2f06-42d8-9654-8a81b16bd413
+  skip-cert-verify: true
+  sni: sg-dtc.webkuy.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg-dtc.webkuy.my.id
+  udp: true
