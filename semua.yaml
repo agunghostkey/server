@@ -47,19 +47,16 @@ proxies:
   udp: true
 
 
-- name: uninet
+- name: Biznet 
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: 772aba41-e008-44ba-93cd-7b4f2c9c5f6e
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: bf1dc729-2eea-42ac-b54f-9b1d0fe6b772
   skip-cert-verify: true
-  servername: id-uninet3.webkuy.my.id
+  sni: id-wdm.webkuy.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-uninet3.webkuy.my.id
+      Host: id-wdm.webkuy.my.id
   udp: true
