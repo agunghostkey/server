@@ -46,17 +46,19 @@ proxies:
       Host: id2-ray.ipservers.xyz
   udp: true
 
-
-- name: Biznet 
+- name: sgdo
   server: 104.18.2.2
+  type: vmess
   port: 443
-  type: trojan
-  password: bf1dc729-2eea-42ac-b54f-9b1d0fe6b772
+  uuid: sgdis_7034_hidessh
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: id-wdm.webkuy.my.id
+  servername: sg2-vip.csrvpn.net
   network: ws
   ws-opts:
-    path: /trojan
+    path: /vmess
     headers:
-      Host: id-wdm.webkuy.my.id
+      Host: sg2-vip.csrvpn.net
   udp: true
