@@ -46,16 +46,17 @@ proxies:
       Host: id2-ray.ipservers.xyz
   udp: true
 
-- name: Bznt
+
+- name: SGDO
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 15edcd4e-b66e-4aeb-ac21-7dd0c8b883c4
+  password: 11e7e663-d6c5-4d4b-99ef-9912330f0d07
   skip-cert-verify: true
-  sni: id-wdm.webkuy.my.id
+  sni: sgp-rmatvpn.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-wdm.webkuy.my.id
+      Host: sgp-rmatvpn.my.id
   udp: true
