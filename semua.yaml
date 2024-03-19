@@ -45,3 +45,20 @@ proxies:
     headers:
       Host: id2-ray.ipservers.xyz
   udp: true
+
+- name: uni
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: e7403cd2-2d96-44a0-81f3-97716bd342b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-uninet.webkuy.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id-uninet.webkuy.my.id
+  udp: true
