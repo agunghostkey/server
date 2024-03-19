@@ -29,7 +29,7 @@ proxies:
       Host: id-akamai.estebuh.my.id
   udp: true
 
-- name: jagoanssh-Hsjbdsd
+- name: JAGOSSH
   server: 104.18.2.2
   type: vmess
   port: 443
@@ -44,21 +44,4 @@ proxies:
     path: /JAGOANSSH/
     headers:
       Host: id2-ray.ipservers.xyz
-  udp: true
-
-- name: sgdo
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: sgdis_7034_hidessh
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sg2-vip.csrvpn.net
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg2-vip.csrvpn.net
   udp: true
