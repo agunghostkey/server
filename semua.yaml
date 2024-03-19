@@ -46,19 +46,16 @@ proxies:
       Host: id2-ray.ipservers.xyz
   udp: true
 
-- name: IKD CS
+- name: Bznt
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: 482393b8-6618-4f9a-85c2-e8345fda8068
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 15edcd4e-b66e-4aeb-ac21-7dd0c8b883c4
   skip-cert-verify: true
-  servername: id-ikd2.webkuy.my.id
+  sni: id-wdm.webkuy.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-ikd2.webkuy.my.id
+      Host: id-wdm.webkuy.my.id
   udp: true
