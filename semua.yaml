@@ -1,17 +1,19 @@
 proxies:
-- name: RMAT
+
+- name: ikdhig2
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 218706a1-560d-482e-87fa-d053ecd14a18
+  password: 72382940-1e98-4185-8c5a-e69b7af7e14e
   skip-cert-verify: true
-  sni: id-ikd.rmatvpn.my.id
+  sni: id-ikd2.webkuy.my.id
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id-ikd2.rmatvpn.my.id
+      Host: id-ikd2.webkuy.my.id
   udp: true
+
 - name: LINODE
   server: 104.18.2.2
   type: vmess
