@@ -1,20 +1,19 @@
 proxies:
-- name: IKD
+
+- name: Herza
   server: 104.18.2.2
-  type: vmess
-  port: 80
-  uuid: 739d292f-a41b-4bf3-9775-781a2a1e57f4
-  alterId: 0
-  cipher: auto
-  tls: false
+  port: 443
+  type: trojan
+  password: 19091c74-0ceb-409a-9c06-0740c1680c45
   skip-cert-verify: true
-  servername: 
+  sni: id-herza.rmatvpn.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-ikd.rmatvpn.my.id
+      Host: id-herza.rmatvpn.my.id
   udp: true
+
 - name: LINODE
   server: 104.18.2.2
   type: vmess
