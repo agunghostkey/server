@@ -1,19 +1,20 @@
 proxies:
-
-- name: ikdhig2
+- name: IKD
   server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: 72382940-1e98-4185-8c5a-e69b7af7e14e
+  type: vmess
+  port: 80
+  uuid: 739d292f-a41b-4bf3-9775-781a2a1e57f4
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-  sni: id-ikd2.webkuy.my.id
+  servername: 
   network: ws
   ws-opts:
-    path: /trojan
+    path: /vmess
     headers:
-      Host: id-ikd2.webkuy.my.id
+      Host: id-ikd.rmatvpn.my.id
   udp: true
-
 - name: LINODE
   server: 104.18.2.2
   type: vmess
@@ -29,36 +30,4 @@ proxies:
     path: /vmess
     headers:
       Host: id-akamai.estebuh.my.id
-  udp: true
-
-- name: JAGOSSH
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: 7e996853-cc33-40cc-aba7-005d830a8a1f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id2-ray.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: /JAGOANSSH/
-    headers:
-      Host: id2-ray.ipservers.xyz
-  udp: true
-
-
-- name: SGDO
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: 11e7e663-d6c5-4d4b-99ef-9912330f0d07
-  skip-cert-verify: true
-  sni: sgp-rmatvpn.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sgp-rmatvpn.my.id
   udp: true
