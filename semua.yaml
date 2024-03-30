@@ -30,3 +30,17 @@ proxies:
     headers:
       Host: id-akamai.estebuh.my.id
   udp: true
+
+- name: 12
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: 1a4197e4-96cf-4e5c-9a56-35621d767bec
+  skip-cert-verify: true
+  sni: id6.zevesh.host
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id6.zevesh.host
+  udp: true
