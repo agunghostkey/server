@@ -31,16 +31,19 @@ proxies:
       Host: id-akamai.estebuh.my.id
   udp: true
 
-- name: 12
+- name: High IKD
   server: 104.18.2.2
+  type: vmess
   port: 443
-  type: trojan
-  password: 1a4197e4-96cf-4e5c-9a56-35621d767bec
+  uuid: ebc9994c-5b7e-4f98-a8f1-6ecdff68cef7
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: id6.zevesh.host
+  servername: id-ikd.webkuy.my.id
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /vmess
     headers:
-      Host: id6.zevesh.host
+      Host: id-ikd.webkuy.my.id
   udp: true
