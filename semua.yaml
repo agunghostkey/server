@@ -1,17 +1,20 @@
 proxies:
 
-- name: Herza
+- name: LITE
   server: 104.18.2.2
+  type: vmess
   port: 443
-  type: trojan
-  password: 19091c74-0ceb-409a-9c06-0740c1680c45
+  uuid: 4d8a82a3-39b7-4006-bb04-a0babc571354
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: id-herza.rmatvpn.my.id
+  servername: nisa.desutunnel.id
   network: ws
   ws-opts:
-    path: /trojan
+    path: /vmess
     headers:
-      Host: id-herza.rmatvpn.my.id
+      Host: nisa.desutunnel.id
   udp: true
 
 - name: LINODE
