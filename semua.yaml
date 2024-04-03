@@ -17,19 +17,16 @@ proxies:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
 
-- name: High IKD
+- name: nusa
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: ebc9994c-5b7e-4f98-a8f1-6ecdff68cef7
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: jagoanssh-Ghshsgax
   skip-cert-verify: true
-  servername: id-ikd.webkuy.my.id
+  sni: id2go.ipservers.xyz
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-ikd.webkuy.my.id
+      Host: id2go.ipservers.xyz
   udp: true
