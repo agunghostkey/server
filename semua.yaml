@@ -1,37 +1,20 @@
 proxies:
 
-- name: LITE
+- name: IKD2
   server: 104.18.2.2
   type: vmess
   port: 443
-  uuid: 4d8a82a3-39b7-4006-bb04-a0babc571354
+  uuid: fc13e4cf-d98b-4b69-82a7-811358646186
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: nisa.desutunnel.id
+  servername: id-ikd2.rmatvpn.my.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: nisa.desutunnel.id
-  udp: true
-
-- name: LINODE
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: 8784fa3d-3e47-4980-8c1a-934d3fce8ee1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id-akamai.estebuh.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-akamai.estebuh.my.id
+      Host: id-ikd2.rmatvpn.my.id
   udp: true
 
 - name: High IKD
