@@ -16,8 +16,6 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-
-
 - name: nusa
   server: 104.18.2.2
   port: 443
@@ -30,4 +28,35 @@ proxies:
     path: /trojan
     headers:
       Host: id2go.ipservers.xyz
+  udp: true
+
+- name: DO 80
+  server: 104.18.2.2
+  type: vmess
+  port: 80
+  uuid: 5c8093f3-4b7b-4ac1-a119-bd4d90e1b716
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  servername: 
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg6.fastserver.biz.id
+  udp: true
+
+- name: Msa
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: e3bb0107-5fee-4392-8fae-9691c9acb60e
+  skip-cert-verify: true
+  sni: id-mn3.webkuy.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-mn3.webkuy.my.id
   udp: true
