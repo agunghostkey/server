@@ -17,6 +17,7 @@ proxies:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
 
+
 - name: nusa
   server: 104.18.2.2
   port: 443
