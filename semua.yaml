@@ -1,5 +1,4 @@
 proxies:
-
 - name: IKD2
   server: 104.18.2.2
   type: vmess
@@ -16,18 +15,19 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-- name: nusa
+
+- name: Argon
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: jagoanssh-Ghshsgax
+  password: 5fzoUqBCWE2TZvecSpIoVQ
   skip-cert-verify: true
-  sni: id2go.ipservers.xyz
+  sni: id-argon1.server-vpn.cloud
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: id2go.ipservers.xyz
+      Host: id-argon1.server-vpn.cloud
   udp: true
 
 - name: DO 80
