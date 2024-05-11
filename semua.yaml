@@ -1,20 +1,4 @@
 proxies:
-- name: IKD2
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: fc13e4cf-d98b-4b69-82a7-811358646186
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id-ikd2.rmatvpn.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-ikd2.rmatvpn.my.id
-  udp: true
 
 - name: Argon
   server: 104.18.2.2
@@ -29,24 +13,6 @@ proxies:
     headers:
       Host: id-argon1.server-vpn.cloud
   udp: true
-
-- name: DO 80
-  server: 104.18.2.2
-  type: vmess
-  port: 80
-  uuid: 5c8093f3-4b7b-4ac1-a119-bd4d90e1b716
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: 
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg6.fastserver.biz.id
-  udp: true
-
 - name: Msa
   server: 104.18.2.2
   port: 443
@@ -59,4 +25,20 @@ proxies:
     path: /trojan
     headers:
       Host: id-mn3.webkuy.my.id
+  udp: true
+- name: IKD
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: f5257c56-6cc4-4fb8-97d2-280ab777b400
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: id-hz2.webkuy.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: id-hz2.webkuy.my.id
   udp: true
