@@ -26,19 +26,19 @@ proxies:
     headers:
       Host: id-mn3.webkuy.my.id
   udp: true
-- name: IKD
+- name: Lite
   server: 104.18.2.2
   type: vmess
   port: 443
-  uuid: f5257c56-6cc4-4fb8-97d2-280ab777b400
+  uuid: b7ec72d5-7cf7-4828-b309-c03aa0a1f583
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: id-hz2.webkuy.my.id
+  servername: nisa.desutunnel.id
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: id-hz2.webkuy.my.id
+      Host: nisa.desutunnel.id
   udp: true
