@@ -26,19 +26,16 @@ proxies:
     headers:
       Host: id-mn3.webkuy.my.id
   udp: true
-- name: Lite
+- name: DO5
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: b7ec72d5-7cf7-4828-b309-c03aa0a1f583
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 01e05e54-b6ad-4354-a7fb-ed33d9572aff
   skip-cert-verify: true
-  servername: nisa.desutunnel.id
+  sni: sg5.fastserver.biz.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan-ws
     headers:
-      Host: nisa.desutunnel.id
+      Host: sg5.fastserver.biz.id
   udp: true
