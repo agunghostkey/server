@@ -40,19 +40,17 @@ proxies:
       Host: sg5.fastserver.biz.id
   udp: true
 
-- name: ikd
+
+- name: ikdf
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: 7000d098-7196-4159-91be-ca93e6bc3bf2
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: f6t11bRgBKiwxRSX0aDdKg
   skip-cert-verify: true
-  servername: id-hz2.webkuy.my.id
+  sni: ikada.server-vpn.cloud
   network: ws
   ws-opts:
-    path: /vmess
+    path: trojan-service
     headers:
-      Host: id-hz2.webkuy.my.id
+      Host: ikada.server-vpn.cloud
   udp: true
