@@ -39,3 +39,19 @@ proxies:
     headers:
       Host: sg5.fastserver.biz.id
   udp: true
+- name: NusaPrem
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: 1b9feeee-6e7d-4902-97ca-1a0d4cdfab1b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: idn-viprext.my.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idn-viprext.my.id
+  udp: true
