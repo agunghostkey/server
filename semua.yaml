@@ -40,17 +40,16 @@ proxies:
       Host: sg5.fastserver.biz.id
   udp: true
 
-
-- name: ikdf
+- name: VIP
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: f6t11bRgBKiwxRSX0aDdKg
+  password: anaaj_7034_hidessh
   skip-cert-verify: true
-  sni: ikada.server-vpn.cloud
+  sni: id2-vip.csrvpn.net
   network: ws
   ws-opts:
-    path: trojan-service
+    path: /trojan
     headers:
-      Host: ikada.server-vpn.cloud
+      Host: id2-vip.csrvpn.net
   udp: true
