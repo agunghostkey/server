@@ -40,16 +40,16 @@ proxies:
       Host: sg5.fastserver.biz.id
   udp: true
 
-- name: Natan
+- name: Natan N
   server: 104.18.2.2
   type: vmess
-  port: 80
+  port: 443
   uuid: nthz_7034_hidessh_8860
   alterId: 0
   cipher: auto
-  tls: false
+  tls: true
   skip-cert-verify: true
-  servername: 
+  servername: id-nata.nude.my.id
   network: ws
   ws-opts:
     path: /vmess
