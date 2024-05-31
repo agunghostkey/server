@@ -39,20 +39,16 @@ proxies:
     headers:
       Host: sg5.fastserver.biz.id
   udp: true
-
-- name: Natan N
+- name: IKD
   server: 104.18.2.2
-  type: vmess
   port: 443
-  uuid: nthz_7034_hidessh_8860
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: 95dfd59d-4636-499a-86da-7cce1b64fe36
   skip-cert-verify: true
-  servername: id-nata.nude.my.id
+  sni: id-ikd.webkuy.my.id
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan
     headers:
-      Host: id-nata.nude.my.id
+      Host: id-ikd.webkuy.my.id
   udp: true
