@@ -26,18 +26,19 @@ proxies:
     headers:
       Host: id-mn3.webkuy.my.id
   udp: true
-- name: DO5
+
+- name: Ocean8
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 01e05e54-b6ad-4354-a7fb-ed33d9572aff
+  password: ba899267-f07e-4474-8ac1-56c81687f7b0
   skip-cert-verify: true
-  sni: sg5.fastserver.biz.id
+  sni: sg8.fastserver.biz.id
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: sg5.fastserver.biz.id
+      Host: sg8.fastserver.biz.id
   udp: true
 - name: IKD
   server: 104.18.2.2
