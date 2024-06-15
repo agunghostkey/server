@@ -26,7 +26,6 @@ proxies:
     headers:
       Host: id-mn3.webkuy.my.id
   udp: true
-
 - name: Ocean8
   server: 104.18.2.2
   port: 443
@@ -40,16 +39,16 @@ proxies:
     headers:
       Host: sg8.fastserver.biz.id
   udp: true
-- name: ocean 4
+- name: rextDO
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: tNpEsKA7jaeWdEowVlDuZQ
+  password: 38929780-29eb-404d-90f6-b3adf9b7dd19
   skip-cert-verify: true
-  sni: sg-do4.estebuh.my.id
+  sni: do-viprext.my.id
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: sg-do4.estebuh.my.id
+      Host: do-viprext.my.id
   udp: true
