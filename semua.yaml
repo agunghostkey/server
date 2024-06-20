@@ -52,3 +52,16 @@ proxies:
     headers:
       Host: do-viprext.my.id
   udp: true
+- name: IKD
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: cc1fb7a0-e42d-4be1-b3d2-451e405ad123
+  skip-cert-verify: true
+  sni: id-ikd.webkuy.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-ikd.webkuy.my.id
+  udp: true
