@@ -52,8 +52,8 @@ proxies:
       Host: do-viprext.my.id
   udp: true
 
-- name: Argon 91
-  server: 104.16.226.91
+- name: Argon 18
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: 5fzoUqBCWE2TZvecSpIoVQ
@@ -65,8 +65,8 @@ proxies:
     headers:
       Host: id-argon1.server-vpn.cloud
   udp: true
-- name: Msa 91
-  server: 104.16.226.91
+- name: Msa 18
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: e3bb0107-5fee-4392-8fae-9691c9acb60e
@@ -78,8 +78,8 @@ proxies:
     headers:
       Host: id-mn3.webkuy.my.id
   udp: true
-- name: OceaN 91
-  server: 104.16.226.91
+- name: OceaN 18
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: ba899267-f07e-4474-8ac1-56c81687f7b0
@@ -91,8 +91,8 @@ proxies:
     headers:
       Host: sg8.fastserver.biz.id
   udp: true
-- name: rextDO 91
-  server: 104.16.226.91
+- name: rextDO 18
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: 38929780-29eb-404d-90f6-b3adf9b7dd19
