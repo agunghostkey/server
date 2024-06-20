@@ -1,7 +1,7 @@
 proxies:
 
 - name: Argon
-  server: 104.18.2.2
+  server: 104.18.25.139
   port: 443
   type: trojan
   password: 5fzoUqBCWE2TZvecSpIoVQ
@@ -14,7 +14,7 @@ proxies:
       Host: id-argon1.server-vpn.cloud
   udp: true
 - name: Msa
-  server: 104.18.2.2
+  server: 104.18.25.139
   port: 443
   type: trojan
   password: e3bb0107-5fee-4392-8fae-9691c9acb60e
@@ -27,7 +27,7 @@ proxies:
       Host: id-mn3.webkuy.my.id
   udp: true
 - name: Ocean8
-  server: 104.18.2.2
+  server: 104.18.25.139
   port: 443
   type: trojan
   password: ba899267-f07e-4474-8ac1-56c81687f7b0
@@ -40,7 +40,7 @@ proxies:
       Host: sg8.fastserver.biz.id
   udp: true
 - name: rextDO
-  server: 104.18.2.2
+  server: 104.18.25.139
   port: 443
   type: trojan
   password: 38929780-29eb-404d-90f6-b3adf9b7dd19
@@ -51,17 +51,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: do-viprext.my.id
-  udp: true
-- name: IKD
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: cc1fb7a0-e42d-4be1-b3d2-451e405ad123
-  skip-cert-verify: true
-  sni: id-ikd.webkuy.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-ikd.webkuy.my.id
   udp: true
