@@ -1,4 +1,18 @@
 proxies:
+
+- name: IKD
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: ba32474e-6107-4fc7-9613-046c82ac54a7
+  skip-cert-verify: true
+  sni: id-ikd2.rmatvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-ikd2.rmatvpn.my.id
+  udp: true
 - name: Argon 139
   server: 104.18.25.139
   port: 443
