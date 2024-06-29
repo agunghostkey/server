@@ -26,42 +26,17 @@ proxies:
     headers:
       Host: sg8.fastserver.biz.id
   udp: true
-- name: rextDO 139
-  server: 104.18.25.139
+
+- name: cloud
+  server: 104.18.2.2
   port: 443
   type: trojan
-  password: 38929780-29eb-404d-90f6-b3adf9b7dd19
+  password: 4dd06f4e-9b0f-458f-9d8d-94f67b0ab6fb
   skip-cert-verify: true
-  sni: do-viprext.my.id
+  sni: id-cf.nude.my.id
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: do-viprext.my.id
-  udp: true
-- name: OceaN 18
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: ba899267-f07e-4474-8ac1-56c81687f7b0
-  skip-cert-verify: true
-  sni: sg8.fastserver.biz.id
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: sg8.fastserver.biz.id
-  udp: true
-- name: rextDO 18
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 38929780-29eb-404d-90f6-b3adf9b7dd19
-  skip-cert-verify: true
-  sni: do-viprext.my.id
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: do-viprext.my.id
+      Host: id-cf.nude.my.id
   udp: true
