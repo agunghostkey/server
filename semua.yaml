@@ -13,32 +13,6 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-- name: Argon 139
-  server: 104.18.25.139
-  port: 443
-  type: trojan
-  password: 5fzoUqBCWE2TZvecSpIoVQ
-  skip-cert-verify: true
-  sni: id-argon1.server-vpn.cloud
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-argon1.server-vpn.cloud
-  udp: true
-- name: Msa139
-  server: 104.18.25.139
-  port: 443
-  type: trojan
-  password: e3bb0107-5fee-4392-8fae-9691c9acb60e
-  skip-cert-verify: true
-  sni: id-mn3.webkuy.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-mn3.webkuy.my.id
-  udp: true
 - name: Ocean8 139
   server: 104.18.25.139
   port: 443
@@ -64,33 +38,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: do-viprext.my.id
-  udp: true
-
-- name: Argon 18
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 5fzoUqBCWE2TZvecSpIoVQ
-  skip-cert-verify: true
-  sni: id-argon1.server-vpn.cloud
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-argon1.server-vpn.cloud
-  udp: true
-- name: Msa 18
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: e3bb0107-5fee-4392-8fae-9691c9acb60e
-  skip-cert-verify: true
-  sni: id-mn3.webkuy.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-mn3.webkuy.my.id
   udp: true
 - name: OceaN 18
   server: 104.18.3.2
