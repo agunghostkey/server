@@ -1,5 +1,17 @@
 proxies:
-
+- name: wrna
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: b361c609-1478-4828-8e5e-ac6c26ad22ff
+  skip-cert-verify: true
+  sni: id-warna.rmatvpn.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id-warna.rmatvpn.my.id
+  udp: true
 - name: IKD
   server: 104.18.2.2
   port: 443
@@ -25,18 +37,4 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sg8.fastserver.biz.id
-  udp: true
-
-- name: cloud
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: 4dd06f4e-9b0f-458f-9d8d-94f67b0ab6fb
-  skip-cert-verify: true
-  sni: id-cf.nude.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-cf.nude.my.id
   udp: true
