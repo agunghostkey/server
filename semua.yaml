@@ -1,4 +1,21 @@
 proxies:
+
+- name: SGM-8 AGT
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: eb3787a6-eae8-4406-a0f0-7bc55dee5617
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: sgm1ray.serverip.my.id
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: sgm1ray.serverip.my.id
+  udp: true
 - name: 14-ID
   server: 104.18.2.2
   type: vmess
