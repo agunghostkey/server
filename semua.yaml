@@ -1,4 +1,33 @@
 proxies:
+- name: 14-ID
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: d1fdf702-d965-4a2c-936f-ff1c659ca7c1
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: Jaja.xom
+  network: ws
+  ws-opts:
+    path: /serverssh.net
+    headers:
+      Host: idray.serverip.my.id
+  udp: true
+- name: 14 SG
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: jagoanssh-Nananazz
+  skip-cert-verify: true
+  sni: sg3go.ipservers.xyz
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg3go.ipservers.xyz
+  udp: true
 - name: wrna
   server: 104.18.2.2
   port: 443
