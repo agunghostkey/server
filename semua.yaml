@@ -84,3 +84,17 @@ proxies:
     headers:
       Host: sg8.fastserver.biz.id
   udp: true
+- name: premi
+  server: 104.18.2.2
+  port: 443
+  type: trojan
+  password: zZkXgBBrZebAzyg7_EEflg
+  skip-cert-verify: true
+  sni: do2-platinum.estebuh.my.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: do2-platinum.estebuh.my.id
+  udp: true
+
