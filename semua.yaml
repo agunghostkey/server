@@ -1,10 +1,9 @@
 proxies:
-
-- name: trial426120240713055902
+- name: OCEAN 13 Sep
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: b5fdddbc-20a5-4fab-b111-cf776907e02f
+  password: 3f0ee9da-f0e4-42d0-b11a-098f8f99e2bd
   skip-cert-verify: true
   sni: sg5.fastserver.biz.id
   network: ws
@@ -13,7 +12,6 @@ proxies:
     headers:
       Host: sg5.fastserver.biz.id
   udp: true
-
 - name: SGM-8 AGT
   server: 104.18.2.2
   type: vmess
