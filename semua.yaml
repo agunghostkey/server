@@ -1,5 +1,4 @@
 proxies:
-
 - name: SGM-8 AGT
   server: 104.18.2.2
   type: vmess
@@ -15,48 +14,6 @@ proxies:
     path: /serverssh.net
     headers:
       Host: sgm1ray.serverip.my.id
-  udp: true
-- name: 14-ID
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: d1fdf702-d965-4a2c-936f-ff1c659ca7c1
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: Jaja.xom
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: idray.serverip.my.id
-  udp: true
-- name: 14 SG
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: jagoanssh-Nananazz
-  skip-cert-verify: true
-  sni: sg3go.ipservers.xyz
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg3go.ipservers.xyz
-  udp: true
-- name: wrna
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: b361c609-1478-4828-8e5e-ac6c26ad22ff
-  skip-cert-verify: true
-  sni: id-warna.rmatvpn.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-warna.rmatvpn.my.id
   udp: true
 - name: IKD
   server: 104.18.2.2
@@ -84,17 +41,3 @@ proxies:
     headers:
       Host: sg8.fastserver.biz.id
   udp: true
-- name: premi
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: zZkXgBBrZebAzyg7_EEflg
-  skip-cert-verify: true
-  sni: do2-platinum.estebuh.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: do2-platinum.estebuh.my.id
-  udp: true
-
