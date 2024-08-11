@@ -12,22 +12,6 @@ proxies:
     headers:
       Host: sg5.fastserver.biz.id
   udp: true
-- name: SGM-8 AGT
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: eb3787a6-eae8-4406-a0f0-7bc55dee5617
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: sgm1ray.serverip.my.id
-  network: ws
-  ws-opts:
-    path: /serverssh.net
-    headers:
-      Host: sgm1ray.serverip.my.id
-  udp: true
 - name: IKD
   server: 104.18.2.2
   port: 443
@@ -41,16 +25,19 @@ proxies:
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-- name: Ocean8 139
+- name: IKD CS
   server: 104.18.2.2
+  type: vmess
   port: 443
-  type: trojan
-  password: ba899267-f07e-4474-8ac1-56c81687f7b0
+  uuid: 2d330dab-44e2-4f85-aaea-eb0bbdc08aa2
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  sni: sg8.fastserver.biz.id
+  servername: id-ikd.webkuy.my.id
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /vmess
     headers:
-      Host: sg8.fastserver.biz.id
+      Host: id-ikd.webkuy.my.id
   udp: true
