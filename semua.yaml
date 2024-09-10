@@ -16,7 +16,7 @@ proxies:
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: ba32474e-6107-4fc7-9613-046c82ac54a7
+  password: c35a866d-e323-458d-997f-f607ffc34b58
   skip-cert-verify: true
   sni: id-ikd2.rmatvpn.my.id
   network: ws
@@ -24,20 +24,4 @@ proxies:
     path: /trojan
     headers:
       Host: id-ikd2.rmatvpn.my.id
-  udp: true
-- name: IKD CS
-  server: 104.18.2.2
-  type: vmess
-  port: 443
-  uuid: 2d330dab-44e2-4f85-aaea-eb0bbdc08aa2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: id-ikd.webkuy.my.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: id-ikd.webkuy.my.id
   udp: true
