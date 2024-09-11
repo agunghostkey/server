@@ -12,19 +12,7 @@ proxies:
     headers:
       Host: sg5.fastserver.biz.id
   udp: true
-- name: IKD
-  server: 104.18.2.2
-  port: 443
-  type: trojan
-  password: c35a866d-e323-458d-997f-f607ffc34b58
-  skip-cert-verify: true
-  sni: id-ikd2.rmatvpn.my.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id-ikd2.rmatvpn.my.id
-  udp: true
+
 - name: IKD CS
   server: 104.18.2.2
   port: 443
