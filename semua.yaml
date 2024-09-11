@@ -1,4 +1,4 @@
-proses:
+proxies:
 - name: IKD RMAT
   server: 104.18.2.2
   port: 443
