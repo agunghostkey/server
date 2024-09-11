@@ -12,16 +12,16 @@
     headers:
       Host: id-ikd2.rmatvpn.my.id
   udp: true
-- name: IKD CS
+- name: SG 12 NOV
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: f2f4c4fb-3301-46bf-b4f9-ccd14474a479
+  password: 559b3536-3839-42c0-920b-c8a1beba48e3
   skip-cert-verify: true
-  sni: id-ikd.webkuy.my.id
+  sni: sg6.fastserver.biz.id
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: id-ikd.webkuy.my.id
+      Host: sg6.fastserver.biz.id
   udp: true
