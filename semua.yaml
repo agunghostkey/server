@@ -1,18 +1,17 @@
-proxies:
-- name: OCEAN 13 Sep
+
+- name: IKD RMAT
   server: 104.18.2.2
   port: 443
   type: trojan
-  password: 3f0ee9da-f0e4-42d0-b11a-098f8f99e2bd
+  password: 4efca6c2-361d-4f60-9262-f59e7d7e39ac
   skip-cert-verify: true
-  sni: sg5.fastserver.biz.id
+  sni: id-ikd2.rmatvpn.my.id
   network: ws
   ws-opts:
-    path: /trojan-ws
+    path: /trojan
     headers:
-      Host: sg5.fastserver.biz.id
+      Host: id-ikd2.rmatvpn.my.id
   udp: true
-
 - name: IKD CS
   server: 104.18.2.2
   port: 443
