@@ -25,3 +25,20 @@ proxies:
     headers:
       Host: sg6.fastserver.biz.id
   udp: true
+
+- name: 24
+  server: 104.18.2.2
+  type: vmess
+  port: 443
+  uuid: 0dac908d-a314-4453-b989-14ed6cc77333
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: argo-tested-script.sflash.me
+  network: ws
+  ws-opts:
+    path: /argo-vm
+    headers:
+      Host: argo-tested-script.sflash.me
+  udp: true
