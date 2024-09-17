@@ -25,7 +25,6 @@ proxies:
     headers:
       Host: sg6.fastserver.biz.id
   udp: true
-
 - name: 24
   server: 104.18.2.2
   type: vmess
